@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/varoon-enjeti.github.io/static/css/main.40d31b83.css",
-    "main.js": "/varoon-enjeti.github.io/static/js/main.cc969752.js",
+    "main.js": "/varoon-enjeti.github.io/static/js/main.39cc0cc4.js",
     "static/js/787.28cb0dcd.chunk.js": "/varoon-enjeti.github.io/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/varoon-enjeti.github.io/index.html",
     "main.40d31b83.css.map": "/varoon-enjeti.github.io/static/css/main.40d31b83.css.map",
-    "main.cc969752.js.map": "/varoon-enjeti.github.io/static/js/main.cc969752.js.map",
+    "main.39cc0cc4.js.map": "/varoon-enjeti.github.io/static/js/main.39cc0cc4.js.map",
     "787.28cb0dcd.chunk.js.map": "/varoon-enjeti.github.io/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.40d31b83.css",
-    "static/js/main.cc969752.js"
+    "static/js/main.39cc0cc4.js"
   ]
 }
