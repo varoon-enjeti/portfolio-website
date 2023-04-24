@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/varoon-enjeti.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/varoon-enjeti.github.io/static/js/main.b1ec253d.js",
+    "main.css": "/varoon-enjeti.github.io/static/css/main.3443972c.css",
+    "main.js": "/varoon-enjeti.github.io/static/js/main.adbea0c8.js",
     "static/js/787.28cb0dcd.chunk.js": "/varoon-enjeti.github.io/static/js/787.28cb0dcd.chunk.js",
-    "static/media/logo.svg": "/varoon-enjeti.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/varoon-enjeti.github.io/index.html",
-    "main.073c9b0a.css.map": "/varoon-enjeti.github.io/static/css/main.073c9b0a.css.map",
-    "main.b1ec253d.js.map": "/varoon-enjeti.github.io/static/js/main.b1ec253d.js.map",
+    "main.3443972c.css.map": "/varoon-enjeti.github.io/static/css/main.3443972c.css.map",
+    "main.adbea0c8.js.map": "/varoon-enjeti.github.io/static/js/main.adbea0c8.js.map",
     "787.28cb0dcd.chunk.js.map": "/varoon-enjeti.github.io/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.b1ec253d.js"
+    "static/css/main.3443972c.css",
+    "static/js/main.adbea0c8.js"
   ]
 }
