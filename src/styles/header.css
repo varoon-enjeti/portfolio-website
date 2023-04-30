@@ -20,7 +20,7 @@
 
 .name:hover {
     transform: scale(1.05);
-    text-shadow: 0 0 11px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 0 11px rgba(0, 0, 0, 0.3);
 }
 
 .pfp {
@@ -35,7 +35,7 @@
 
 .pfp:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
 
 .header-bottom {
@@ -60,6 +60,11 @@
 
     .name {
         font-size: 35px;
+        transition: transform .25s, visibility .25s ease-in;
+    }
+
+    .name:hover {
+        text-shadow: none;
     }
 
     .pfp {
@@ -68,6 +73,11 @@
         border: 2px solid #2C2C2C;
         border-radius: 15px;
         margin-right: 10px;
+        transition: transform .25s, visibility .25s ease-in;
+    }
+
+    .pfp:hover {
+        box-shadow: none;
     }
 
     .transit-txt {
