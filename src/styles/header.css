@@ -64,7 +64,12 @@
     }
 
     .name:hover {
+        transform: none;
         text-shadow: none;
+    }
+    
+    .name:active {
+        transform: scale(1.05);
     }
 
     .pfp {
@@ -77,7 +82,12 @@
     }
 
     .pfp:hover {
+        transform: none;
         box-shadow: none;
+    }
+
+    .pfp:active {
+        transform: scale(1.1);
     }
 
     .transit-txt {
