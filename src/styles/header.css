@@ -53,6 +53,11 @@
 }
 
 @media screen and (max-width: 620px) {
+    .header {
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+
     .name {
         font-size: 35px;
     }
