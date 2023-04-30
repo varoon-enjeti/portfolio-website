@@ -14,24 +14,28 @@
     letter-spacing: -0.04em;
     color: #2C2C2C;
     width: fit-content;
-    transition: transform .25s, visibility .25s ease-in;
+    transition: transform .25s, visibility .25s ease-in,
+                box-shadow .25s;
 }
 
 .name:hover {
     transform: scale(1.05);
+    text-shadow: 0 0 11px rgba(0, 0, 0, 0.2);
 }
 
 .pfp {
     width: 92px;
     height: 92px;
-    border: 2px solid #2C2C2C;
+    border: 2.5px solid #2C2C2C;
     border-radius: 30px;
     margin-right: 20px;
-    transition: transform .25s, visibility .25s ease-in;
+    transition: transform .25s, visibility .25s ease-in, 
+                box-shadow .25s;
 }
 
 .pfp:hover {
     transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
 }
 
 .header-bottom {
@@ -46,4 +50,8 @@
     font-size: 43px;
     letter-spacing: -0.04em;
     color: #2C2C2C;
+}
+
+@media screen and (max-width: 600px) {
+    
 }
