@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 13px;
+    margin-left: 32px;
+}
+
+.name {
+    display: flex;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    letter-spacing: -0.04em;
+    color: #2C2C2C;
+    width: fit-content;
+    transition: transform .25s, visibility .25s ease-in;
+}
+
+.name:hover {
+    transform: scale(1.05);
+}
+
+.pfp {
+    width: 92px;
+    height: 92px;
+    border: 2px solid #2C2C2C;
+    border-radius: 30px;
+    margin-right: 20px;
+    transition: transform .25s, visibility .25s ease-in;
+}
+
+.pfp:hover {
+    transform: scale(1.1);
+}
+
+.header-bottom {
+    display: flex;
+}
+
+.transit-txt {
+    display: flex;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    letter-spacing: -0.04em;
+    color: #2C2C2C;
+}
