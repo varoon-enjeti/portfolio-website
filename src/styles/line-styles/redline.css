@@ -1,0 +1,29 @@
+.rlv {
+    position: absolute;
+    height: 360px;
+    width: 24px;
+    left: 340px;
+    top: 372px;
+    background: #EB5353;
+    border-radius: 30px 0px 30px 30px;
+}
+
+.rmh {
+    position: absolute;
+    width: 572px;
+    height: 24px;
+    left: 340px;
+    top: 372px;
+    background: #EB5353;
+    border-radius: 30px 0px;
+}
+
+.rrv {
+    position: absolute;
+    height: 230px;
+    width: 24px;
+    left: 888px;
+    top: 166px;
+    background: #EB5353;
+    border-radius: 30px 30px 30px 0px;     
+}
