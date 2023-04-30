@@ -52,6 +52,20 @@
     color: #2C2C2C;
 }
 
-@media screen and (max-width: 600px) {
-    
+@media screen and (max-width: 620px) {
+    .name {
+        font-size: 35px;
+    }
+
+    .pfp {
+        width: 45px;
+        height: 45px;
+        border: 2px solid #2C2C2C;
+        border-radius: 15px;
+        margin-right: 10px;
+    }
+
+    .transit-txt {
+        font-size: 21px;
+    }
 }
