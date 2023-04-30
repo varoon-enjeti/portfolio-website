@@ -1,8 +1,33 @@
+@keyframes fadeIn {
+    from {
+        margin-left: -10%;
+        opacity: 30%;
+    }
+
+    to {
+        margin-left: calc(0% + 32px);
+        opacity: 100%;
+    }
+}
+
+@keyframes fadeInMobile {
+    from {
+        margin-left: -10%;
+        opacity: 30%;
+    }
+
+    to {
+        margin-left: calc(0% + 20px);
+        opacity: 100%;
+    }
+}
+
 .header {
     display: flex;
     flex-direction: column;
     padding-top: 13px;
     margin-left: 32px;
+    animation: 0.75s ease-out fadeIn;
 }
 
 .name {
@@ -56,6 +81,7 @@
     .header {
         margin-left: 20px;
         padding-top: 20px;
+        animation: 0.75s ease-out fadeInMobile;
     }
 
     .name {
