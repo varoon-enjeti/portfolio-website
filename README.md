@@ -1,4 +1,6 @@
 # Portfolio Website
 
-[https://www.varoon.xyz]varoon.xyz
+[varoon.xyz]
+
+built using React.js and Vercel
 
