@@ -15,7 +15,7 @@
     color: #2C2C2C;
     width: fit-content;
     transition: transform .25s, visibility .25s ease-in,
-                box-shadow .25s;
+                text-shadow .25s;
 }
 
 .name:hover {
