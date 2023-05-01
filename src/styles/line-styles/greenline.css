@@ -59,6 +59,7 @@
 
 #green-btn {
     top: 307px;
+    padding-bottom: 0;
 }
 
 #green-txt {
@@ -120,6 +121,6 @@
     }
 
     #green-btn {
-        top: 339px;
+        top: 338.5px;
     }
 }

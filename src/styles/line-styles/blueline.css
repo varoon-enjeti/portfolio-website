@@ -70,7 +70,7 @@
     rotate: 135deg;
     position: relative;
     top: 2px;
-    left: -115px;
+    left: 2px;
 }
 
 #blue-txt {
@@ -123,7 +123,7 @@
     }
 
     #blue-btn {
-        left: -59px;
-        top: 1px;
+        left: 1px;
+        top: 0.5px;
     }
 }
