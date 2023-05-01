@@ -57,3 +57,26 @@
     transform: rotate(-45deg);
     animation: 0.75s ease-out slideInFromTopRight;
 }
+
+@media screen and (max-width: 620px) {
+    .ylv {
+        height: 100px;
+        width: 12px;
+        left: 24px;
+        top: 185px;
+    }
+
+    .ymh {
+        width: 327px;
+        height: 12px;
+        left: 24px;
+        top: 273px;
+    }
+
+    .ydr {
+        width: 65px;
+        height: 12px;
+        left: 328px;
+        top: 254px;
+    }
+}
