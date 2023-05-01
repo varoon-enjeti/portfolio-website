@@ -12,6 +12,8 @@ export default function Greenline() {
             <div className="gmh"></div>
             <div className="gdr"></div>
             <div className="ghr"></div>
+            <div className="gvr"></div>
+            <div className="gvb"></div>
         </div>
     )
 }

@@ -24,12 +24,12 @@
 
 @keyframes slideInFromRight {
     from {
-        margin-top: 10%;
+        margin-left: 10%;
         opacity: 30%;
     }
 
     to {
-        margin-top: 0%;
+        margin-left: 0%;
         opacity: 100%;
     }
 }

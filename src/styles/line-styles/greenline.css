@@ -41,7 +41,7 @@
     left: 1055px;
     top: 449px;
     background: #36AE7C;
-    border-radius: 30px 0px;
+    border-radius: 30px 0px 30px 0px;
     transform: rotate(-135deg);
     animation: 0.75s ease-out slideInFromBotRight;
 }
@@ -67,5 +67,57 @@
 }
 
 @media screen and (max-width: 620px) {
-    
+    .glv {
+        height: 350px;
+        width: 12px;
+        left: 23px;
+        top: 285px;
+    }
+
+    .gmh {
+        width: 326px;
+        height: 12px;
+        left: 23px;
+        top: 285px;
+    }
+
+    .gdr{
+        width: 49.96px;
+        height: 12px;
+        left: 328px;
+        top: 296px;
+        border-radius: 0px 0px 30px 30px;
+    }
+
+    .ghr {
+        width: 191px;
+        height: 12px;
+        left: 176px;
+        top: 367px;
+        border-radius: 30px 0px 30px 0px;
+    }
+
+    .gvr {
+        position: absolute;
+        height: 67.92px;
+        width: 12px;
+        left: 358px;
+        top: 310px;
+        background: #36AE7C;
+        border-radius: 0px 30px 30px 0px;
+        animation: 0.75s ease-out slideInFromRight;
+    }
+
+    .gvb {
+        position: absolute;
+        height: 186px;
+        width: 12px;
+        left: 175px;
+        top: 367px;
+        background: #36AE7C;
+        border-radius: 30px 0px 30px 30px;
+        animation: 0.75s ease-out slideInFromLeft;
+    }
+
+
 }
