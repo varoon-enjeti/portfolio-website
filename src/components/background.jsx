@@ -11,8 +11,8 @@ export default function Background() {
         <div className="background">
             <Header />
             <div className="lines">
-                <Redline />
                 <Yellowline />
+                <Redline />
                 <Greenline />
                 <Blueline />
             </div>

@@ -5,8 +5,8 @@ export default function Greenline() {
     return (
         <div className="greenline">
             <div className="glv">
-                <button onClick="" type="button" className="open-btn" id="green-btn">
-                    <p className="section-txt" id="test">Interests</p>
+                <button onClick={() => {}} type="button" className="open-btn" id="green-btn">
+                    <p className="section-txt" id="green-txt">Interests</p>
                 </button>
             </div>
             <div className="gmh"></div>

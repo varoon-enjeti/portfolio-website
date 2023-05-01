@@ -72,3 +72,58 @@
     top: 2px;
     left: -115px;
 }
+
+#blue-txt {
+    margin: 0;
+    top: -9px;
+    padding: 0;
+}
+
+@media screen and (max-width: 620px) {
+    .bhl {
+        width: 96px;
+        height: 12px;
+        left: 12px;
+        top: 441px;
+    }
+
+    .bvl {
+        height: 150px;
+        width: 12px;
+        left: 96px;
+        top: 297px;
+    }
+
+    .bhm {
+        width: 168px;
+        height: 12px;
+        left: 96px;
+        top: 297px;
+    }
+
+    .bvr {
+        height: 115px;
+        width: 12px;
+        left: 252px;
+        top: 297px;
+        border-radius: 0px 7px;
+    }
+
+    .bhr {
+        height: 0px;
+        width: 0px;
+    }
+
+    .bdr {
+        width: 129.62px;
+        height: 11.77px;
+        left: 235px;
+        top: 442px;
+        border-radius: 30px 30px;
+    }
+
+    #blue-btn {
+        left: -59px;
+        top: 1px;
+    }
+}
