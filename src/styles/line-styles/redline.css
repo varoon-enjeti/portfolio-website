@@ -67,7 +67,7 @@
     animation: 0.75s ease-out slideInFromRight;
 }
 
-.red-btn {
+.open-btn {
     position: relative;
     top: 2px;
     width: 20px;
@@ -78,11 +78,11 @@
     transition: transform .25s, visibility .25s ease-in;
 }
 
-.red-btn:hover {
+.open-btn:hover {
     transform: scale(1.15);
 }
 
-.red-txt {
+.section-txt {
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: 700;
