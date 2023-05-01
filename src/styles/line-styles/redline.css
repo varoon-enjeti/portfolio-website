@@ -36,7 +36,7 @@
 
 .rlv {
     position: absolute;
-    height: 360px;
+    height: 310px;
     width: 24px;
     left: 340px;
     top: 372px;
@@ -92,4 +92,41 @@
     position: relative;
     top: -40px;
     left: 20px;
+}
+
+@media screen and (max-width: 620px) {
+    .rlv {
+        height: 276px;
+        width: 12px;
+        left: 48px;
+        top: 261px;
+    }
+
+    .rmh {
+        width: 276px;
+        height: 12px;
+        left: 48px;
+        top: 261px;
+    }
+
+    .rrv {
+        height: 114px;
+        width: 12px;
+        left: 312px;
+        top: 159px;
+    }
+
+    .red-btn {
+        top: 1px;
+        height: 10px;
+        width: 10px;
+        border: 1px solid #B3B3B3;
+        padding: 0;
+    }
+
+    .red-txt {
+        font-size: 15px;
+        top: -20px;
+        left: 15px;
+    }
 }
