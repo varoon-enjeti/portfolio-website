@@ -2,5 +2,5 @@
 
 [varoon.xyz](https://www.varoon.xyz)
 
-built using React.js and Vercel
+built with React.js and Vercel
 
