@@ -119,5 +119,7 @@
         animation: 0.75s ease-out slideInFromLeft;
     }
 
-
+    #green-btn {
+        top: 339px;
+    }
 }

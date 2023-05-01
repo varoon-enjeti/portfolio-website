@@ -9,9 +9,11 @@ export default function Background() {
     return (
         <div className="background">
             <Header />
-            <Redline />
-            <Yellowline />
-            <Greenline />
+            <div className="lines">
+                <Redline />
+                <Yellowline />
+                <Greenline />
+            </div>
         </div>
     );
 }
