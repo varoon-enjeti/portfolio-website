@@ -75,7 +75,7 @@
     background: #2C2C2C;
     border: 2px solid #B3B3B3;
     border-radius: 50%;
-    transition: transform .25s, visibility .25s ease-in;
+    transition: transform .25s, visibility 1s ease-in;
 }
 
 .open-btn:hover {

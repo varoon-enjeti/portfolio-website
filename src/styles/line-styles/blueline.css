@@ -6,6 +6,7 @@
     top: 588px;
     background: #187498;
     border-radius: 30px 0px 30px 30px;
+    animation: 0.75s ease-out slideInFromBot;
 }
 
 .bvl {
@@ -16,6 +17,7 @@
     top: 444px;
     background: #187498;
     border-radius: 30px 0px 30px 30px;
+    animation: 0.75s ease-out slideInFromLeft;
 }
 
 .bhm {
@@ -26,6 +28,7 @@
     top: 444px;
     background: #187498;
     border-radius: 30px 30px 0px 0px;
+    animation: 0.75s ease-out slideInFromBot;
 }
 
 .bvr {
@@ -36,6 +39,7 @@
     top: 444px;
     background: #187498;
     border-radius: 0 15px;
+    animation: 0.75s ease-out slideInFromRight;
 }
 
 .bhr {
@@ -46,6 +50,7 @@
     top: 540px;
     background: #187498;
     border-radius: 0px 15px;
+    animation: 0.75s ease-out slideInFromBot;
 }
 
 .bdr {
@@ -57,8 +62,13 @@
     background: #187498;
     border-radius: 30px 0px 30px 30px;
     transform: rotate(-135deg);
+    animation: 0.75s ease-out slideInFromBotRight;
+    
 }
 
 #blue-btn {
-    transform: rotate(135deg);
+    rotate: 135deg;
+    position: relative;
+    top: 2px;
+    left: -115px;
 }
