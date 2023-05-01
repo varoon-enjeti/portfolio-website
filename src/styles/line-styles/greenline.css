@@ -90,7 +90,7 @@
     }
 
     .ghr {
-        width: 191px;
+        width: 193px;
         height: 12px;
         left: 176px;
         top: 367px;
@@ -99,12 +99,12 @@
 
     .gvr {
         position: absolute;
-        height: 67.92px;
+        height: 69px;
         width: 12px;
         left: 358px;
         top: 310px;
         background: #36AE7C;
-        border-radius: 0px 30px 30px 0px;
+        border-radius: 0px 30px 15px 0px;
         animation: 0.75s ease-out slideInFromRight;
     }
 
