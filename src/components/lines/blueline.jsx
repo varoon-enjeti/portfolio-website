@@ -9,7 +9,11 @@ export default function Blueline() {
             <div className="bhm"></div>
             <div className="bvr"></div>
             <div className="bhr"></div>
-            <div className="bdr"></div>
+            <div className="bdr">
+                <button onClick={() => {console.log("test");}} type="button" className="open-btn" id="blue-btn">
+                    <p className="section-txt">Contact</p>
+                </button>
+            </div>
         </div>
     );
 }

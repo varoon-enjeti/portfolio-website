@@ -5,7 +5,7 @@ export default function Greenline() {
     return (
         <div className="greenline">
             <div className="glv">
-                <button onclick="" type="button" className="open-btn" id="green-btn">
+                <button onClick="" type="button" className="open-btn" id="green-btn">
                     <p className="section-txt" id="test">Interests</p>
                 </button>
             </div>

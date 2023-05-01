@@ -7,7 +7,7 @@ export default function Yellowline() {
     return (
         <div className="yellowline">
             <div className="ylv">
-                <button onclick="" type="button" className="open-btn">
+                <button onClick="" type="button" className="open-btn">
                     <p className="section-txt">About</p>
                 </button>
             </div>

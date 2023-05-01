@@ -9,7 +9,7 @@ export default function Redline() {
             <div className="rlv"></div>
             <div className="rmh"></div>
             <div className="rrv">
-                <button onclick="" type="button" className="open-btn">
+                <button onClick="" type="button" className="open-btn">
                     <p className="section-txt">Projects</p>
                 </button>
             </div>
