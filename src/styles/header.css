@@ -41,6 +41,7 @@
     width: fit-content;
     transition: transform .25s, visibility .25s ease-in,
                 text-shadow .25s;
+    z-index: 10;
 }
 
 .name:hover {
