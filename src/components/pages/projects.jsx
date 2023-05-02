@@ -14,7 +14,7 @@ export default function Projects() {
     }
 
     let marg = {margin: "100% 0"};
-    if (p_live) {
+    if (!p_live) {
         marg = {margin: 0};
     } else {
         marg = {margin: "100% 0"};
