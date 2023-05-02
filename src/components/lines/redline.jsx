@@ -14,7 +14,7 @@ export default function Redline() {
                     <p className="section-txt">Projects</p>
                 </button>
             </div>
-            {/* <Projects /> */}
+            <Projects />
         </div>
     );
 }
