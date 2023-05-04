@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../styles/line-styles/redline.css';
-import Projects from '../pages/projects';
 
 // color, position, orientation
 
@@ -14,7 +13,6 @@ export default function Redline() {
                     <p className="section-txt">Projects</p>
                 </button>
             </div>
-            <Projects />
         </div>
     );
 }
