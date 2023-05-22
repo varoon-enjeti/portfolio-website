@@ -7,6 +7,7 @@ import Greenline from './lines/greenline';
 import Blueline from './lines/blueline';
 import '../styles/background.css';
 import Project from './pages/projects';
+import WIP from './wip';
 
 export default function Background() {
     return (
@@ -21,6 +22,7 @@ export default function Background() {
             <div className="pages">
                 <Project/>
             </div>
+            <WIP />
         </div>
     );
 }

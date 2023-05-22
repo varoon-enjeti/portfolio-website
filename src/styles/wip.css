@@ -1,0 +1,39 @@
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.wip {
+    position: absolute;
+    top: 17px;
+    left: 994px;
+    width: 303px;
+    height: 97px;
+    background-color: #B3B3B3;
+    color: #2C2C2C;
+    border: 3px solid #2C2C2C;
+    border-radius: 15px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.04em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    animation: 0.75s ease-in fadeInAnimation;
+}
+
+@media screen and (max-width: 620px) {
+    .wip {
+        left: 257px;
+        width: 202px;
+        font-size: 17px;
+    }
+}
