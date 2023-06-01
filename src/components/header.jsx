@@ -2,10 +2,10 @@ import React from 'react';
 import '../styles/header.css';
 import pfp from "../resources/pfp.png";
 
-export default function Header() {
+export default function Header({setProject}) {
     return(
-        <div className="header">
-            <a href="#" className="name">Varoon Enjeti</a>
+        <div onClick={() => {setProject(false)}} type="button" className="header">
+            <button className="name">Varoon Enjeti</button>
             <div className="header-bottom">
                 <a href="/" className="pfp-clck">
                     <img src={pfp} alt="" className="pfp" />

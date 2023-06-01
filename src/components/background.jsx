@@ -10,17 +10,19 @@ import Project from './pages/projects';
 import WIP from './wip';
 
 export default function Background() {
+    const [projectLive, setProject] = useState(false);
+
     return (
         <div className="background">
-            <Header />
+            <Header setProject={setProject}/>
             <div className="lines">
                 <Yellowline />
-                <Redline />
+                <Redline setProject={setProject}/>
                 <Greenline />
                 <Blueline />
             </div>
             <div className="pages">
-                <Project/>
+                {projectLive ? (<Project setProject={setProject}/>) : (null)}
             </div>
             <WIP />
         </div>
