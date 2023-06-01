@@ -1,5 +1,4 @@
 import React from 'react'
-import { Transition } from 'react-transition-group';
 import '../../styles/pages-styles/projects.css';
 
 export default function Project({setProject}) {
