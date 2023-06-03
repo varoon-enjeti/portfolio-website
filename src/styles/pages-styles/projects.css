@@ -28,7 +28,7 @@
     border: 3px solid #2C2C2C;
     border-bottom: none;
     border-radius: 15px 15px 0px 0px;
-    /* animation: 0.25s ease-in pagesLoadIn; */
+    animation: pagesLoadIn 0.25s;
 }
 
 .close {
