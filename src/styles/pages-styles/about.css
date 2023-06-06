@@ -1,0 +1,40 @@
+@keyframes pagesLoadIn {
+    from {
+        margin-top: 100%;
+    }
+
+    to {
+        margin-top: 0%;
+    }
+}
+
+@keyframes pagesLoadOut {
+    from {
+        margin-top: 0%;
+    }
+
+    to {
+        margin-top: 100%;
+    }
+}
+
+.about {
+    position: absolute;
+    width: calc(100% - 6px);
+    height: calc(100% - 108px - 6px);
+    top: 108px;
+    z-index: 2;
+    background: #DEDEDE;
+    border: 3px solid #2C2C2C;
+    border-bottom: none;
+    border-radius: 15px 15px 0px 0px;
+    animation: pagesLoadIn 0.25s;
+}
+
+#a-close {
+    background: #F9D923;
+}
+
+#a-title {
+    color: #F9D923;
+}

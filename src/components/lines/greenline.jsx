@@ -1,11 +1,11 @@
 import React from 'react';
 import '../../styles/line-styles/greenline.css';
 
-export default function Greenline() {
+export default function Greenline({setInterests}) {
     return (
         <div className="greenline">
             <div className="glv">
-                <button onClick={() => {}} type="button" className="open-btn" id="green-btn">
+                <button onClick={() => {setInterests(true)}} type="button" className="open-btn" id="green-btn">
                     <p className="section-txt" id="green-txt">Interests</p>
                 </button>
             </div>

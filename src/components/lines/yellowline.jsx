@@ -3,11 +3,11 @@ import '../../styles/line-styles/yellowline.css';
 
 // color, position, orientation
 
-export default function Yellowline() {
+export default function Yellowline({setAbout}) {
     return (
         <div className="yellowline">
             <div className="ylv">
-                <button onClick={() => {}} type="button" className="open-btn">
+                <button onClick={() => {setAbout(true)}} type="button" className="open-btn">
                     <p className="section-txt">About</p>
                 </button>
             </div>
