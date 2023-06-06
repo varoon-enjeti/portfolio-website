@@ -3,7 +3,7 @@ import '../../styles/pages-styles/about.css';
 
 export default function About({setAbout}) {
     return (
-        <div className="about">
+        <div className="subpage">
             <button onClick={() => {setAbout(false)}} className="close" id="a-close"></button>
             <div className="title" id="a-title">About</div>
         </div>

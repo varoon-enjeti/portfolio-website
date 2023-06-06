@@ -18,7 +18,7 @@
     }
 }
 
-.projects {
+.subpage {
     position: absolute;
     width: calc(100% - 6px);
     height: calc(100% - 108px - 6px);

@@ -8,6 +8,7 @@ import Blueline from './lines/blueline';
 import '../styles/background.css';
 import Project from './pages/projects';
 import About from './pages/about';
+import Interests from './pages/interests';
 import WIP from './wip';
 
 export default function Background() {
@@ -23,6 +24,8 @@ export default function Background() {
                 setProject={setProject}
                 aboutLive={aboutLive}
                 setAbout={setAbout}
+                interestsLive={interestsLive}
+                setInterests={setInterests}
             />
             <div className="lines">
                 <Yellowline setAbout={setAbout}/>
@@ -33,8 +36,8 @@ export default function Background() {
             <div className="pages">
                 {projectLive ? (<Project setProject={setProject}/>) : (null)}
                 {aboutLive ? (<About setAbout={setAbout}/>) : (null)}
-                {/* {aboutInterests ? (<About setInterests={setInterests}/>) : (null)}
-                {aboutContact ? (<About setContact={setContact}/>) : (null)} */}
+                {interestsLive ? (<Interests setInterests={setInterests}/>) : (null)}
+                {/* {aboutContact ? (<About setContact={setContact}/>) : (null)} */}
             </div>
             <WIP />
         </div>
