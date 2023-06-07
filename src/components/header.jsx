@@ -3,15 +3,17 @@ import '../styles/header.css';
 import pfp from "../resources/pfp.png";
 import Project from './pages/projects';
 
-export default function Header({projectLive, setProject, aboutLive, setAbout, interestsLive, setInterests}) {
+export default function Header({projectLive, setProject, aboutLive, setAbout, interestsLive, setInterests, contactLive, setContact}) {
 
     function handleClick() {
         if (projectLive) {
-            setProject(false);
+            setProject(false)
         } else if (aboutLive) {
-            setAbout(false);
+            setAbout(false)
         } else if (interestsLive) {
-            setInterests(false);
+            setInterests(false)
+        } else if (contactLive) {
+            setContact(false)
         }
     }
 
