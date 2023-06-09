@@ -78,6 +78,16 @@
     padding: 0;
 }
 
+@media screen and (max-height: 785px) {
+    .bhl {
+        top: 540px
+    }
+
+    .bvl {
+        height: 120px;
+    }
+}
+
 @media screen and (max-width: 620px) {
     .bhl {
         width: 96px;

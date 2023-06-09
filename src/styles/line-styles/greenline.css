@@ -70,11 +70,11 @@
 
 @media screen and (max-height: 785px) {
     .glv {
-        height: 37vh;
+        height: 216px;
     }
 
     #green-btn {
-        top: 33.75vh;
+        top: 194px;
     }
 }
 
