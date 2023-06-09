@@ -26,7 +26,7 @@
     z-index: 2;
     background: #DEDEDE;
     border: 3px solid #2C2C2C;
-    border-bottom: none;
+    /* border-bottom: none; */
     border-radius: 15px 15px 0px 0px;
     animation: pagesLoadIn 0.25s;
 }
