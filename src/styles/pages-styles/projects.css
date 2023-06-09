@@ -86,8 +86,8 @@
 
 @media screen and (max-width: 620px) { 
     .subpage {
-        top: 53px;
-        height: calc(100% - 53px - 6px);
+        top: 55px;
+        height: calc(100% - 55px - 6px);
     }
 
     .title {
