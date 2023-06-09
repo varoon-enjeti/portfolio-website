@@ -42,7 +42,7 @@ export default function Background() {
                 {interestsLive ? (<Interests setInterests={setInterests}/>) : (null)}
                 {contactLive ? (<Contact setContact={setContact}/>) : (null)}
             </div>
-            <WIP />
+            {/* <WIP /> */}
         </div>
     );
 }

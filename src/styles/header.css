@@ -59,7 +59,7 @@ button {
 .pfp {
     width: 92px;
     height: 92px;
-    border: 2.5px solid #2C2C2C;
+    border: 3px solid #2C2C2C;
     border-radius: 30px;
     margin-right: 20px;
     transition: transform .25s, visibility .25s ease-in, 
@@ -103,7 +103,7 @@ button {
     }
     
     .name:active {
-        transform: scale(1.05);
+        transform: scale(1.1);
     }
 
     .pfp {

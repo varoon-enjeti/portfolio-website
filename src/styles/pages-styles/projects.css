@@ -83,3 +83,15 @@
 #right {
     transform: rotate(-45deg);
 }
+
+@media screen and (max-width: 620px) { 
+    .subpage {
+        top: 53px;
+        height: calc(100% - 53px - 6px);
+    }
+
+    .title {
+        font-size: 42px;
+        margin-top: -12px;
+    }
+}
