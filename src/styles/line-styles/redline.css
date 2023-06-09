@@ -97,6 +97,12 @@
     left: 23px;
 }
 
+@media screen and (max-height: 785px) {
+    .rlv {
+        height: 180px;
+    }
+}
+
 @media screen and (max-width: 620px) {
     .rlv {
         height: 276px;
