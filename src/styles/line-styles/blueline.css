@@ -86,6 +86,12 @@
     .bvl {
         height: 120px;
     }
+
+    .bdr {
+        width: 120px;
+        top: 574px;
+        left: 1077px;
+    }
 }
 
 @media screen and (max-width: 620px) {
