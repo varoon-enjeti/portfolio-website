@@ -51,10 +51,10 @@ export default function About({setAbout}) {
                                 />
                             </div>
                             <div className="exp-dots">
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
-                                <div className="dot"></div>
+                                <div className="dot" id="oned"></div>
+                                <div className="dot" id="twod"></div>
+                                <div className="dot" id="threed"></div>
+                                <div className="dot" id="fourd"></div>
                             </div>
                         </div>
                      </div>

@@ -1,3 +1,55 @@
+@keyframes expOneIn {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes expTwoIn {
+    from {
+        opacity: 0%;
+    }
+
+    20% {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes expThreeIn {
+    from {
+        opacity: 0%;
+    }
+
+    30% {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes expFourIn {
+    from {
+        opacity: 0%;
+    }
+
+    40% {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
 .expcard {
     width: 200px;
     height: 78px;
@@ -54,3 +106,21 @@
 #two, #four {
     margin-left: -215px;
 }
+
+#one {
+    animation: 2s ease-out expOneIn;
+}
+
+#two {
+    animation: 3s ease-out expTwoIn;
+}
+
+#three {
+    animation: 4s ease-out expThreeIn;
+}
+
+#four {
+    animation: 4.5s ease-out expFourIn;
+}
+
+
