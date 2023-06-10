@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import '../../styles/pages-styles/about.css';
-import headshot from "../../resources/headshot.png";
+import ExpCard from './page-components/expcard';
 
 export default function About({setAbout}) {
     return (
@@ -25,7 +25,28 @@ export default function About({setAbout}) {
                      <div className="experience">
                         <p className="exp-title">Experience</p>
                         <div className="exp-line-container">
-                            <div className="exp-line"></div>
+                            <div className="exp-line">
+                                <ExpCard 
+                                    role={"Data Analyst Intern"}
+                                    company={"Kemper"}
+                                    date={"Summer 2023"}
+                                />
+                                <ExpCard 
+                                    role={"Data Analyst Intern"}
+                                    company={"Kemper"}
+                                    date={"Summer 2023"}
+                                />
+                                <ExpCard 
+                                    role={"Data Analyst Intern"}
+                                    company={"Kemper"}
+                                    date={"Summer 2023"}
+                                />
+                                <ExpCard 
+                                    role={"Data Analyst Intern"}
+                                    company={"Kemper"}
+                                    date={"Summer 2023"}
+                                />
+                            </div>
                         </div>
                      </div>
                 </div>
