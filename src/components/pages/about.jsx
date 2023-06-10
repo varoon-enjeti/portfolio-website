@@ -32,19 +32,19 @@ export default function About({setAbout}) {
                                     date={"Summer 2023"}
                                 />
                                 <ExpCard 
-                                    role={"Data Analyst Intern"}
-                                    company={"Kemper"}
-                                    date={"Summer 2023"}
+                                    role={"Software Engineer Intern"}
+                                    company={"Ruta Health"}
+                                    date={"Jan. 2023 - May 2023"}
                                 />
                                 <ExpCard 
-                                    role={"Data Analyst Intern"}
-                                    company={"Kemper"}
-                                    date={"Summer 2023"}
+                                    role={"Software Developer"}
+                                    company={"ESW - AutoAquaponics"}
+                                    date={"Sep. 2022 - Dec. 2022"}
                                 />
                                 <ExpCard 
-                                    role={"Data Analyst Intern"}
-                                    company={"Kemper"}
-                                    date={"Summer 2023"}
+                                    role={"Software Developer"}
+                                    company={"Envision Capital Management"}
+                                    date={"Jan. 2022 - May 2022"}
                                 />
                             </div>
                         </div>
