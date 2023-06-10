@@ -13,7 +13,6 @@ export default function About({setAbout}) {
             <div className="about-content">
                 <div className="about-left">
                     <div className="headshot-frame"></div>
-                    {/* <img src={headshot} alt="headshot" className="headshot"/> */}
                     <div className="education">
                         <p className="edu-title">Education</p>
                         <p className="edu-lower">Northwestern University</p>
@@ -50,6 +49,12 @@ export default function About({setAbout}) {
                                     date={"Jan. 2022 - May 2022"}
                                     id={"four"}
                                 />
+                            </div>
+                            <div className="exp-dots">
+                                <div className="dot"></div>
+                                <div className="dot"></div>
+                                <div className="dot"></div>
+                                <div className="dot"></div>
                             </div>
                         </div>
                      </div>
