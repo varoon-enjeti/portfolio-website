@@ -12,12 +12,20 @@ export default function About({setAbout}) {
             <div className="title" id="a-title">About</div>
             <div className="about-content">
                 <div className="about-left">
-                    {/* <div className="headshot-frame"></div> */}
-                    <img src={headshot} alt="headshot" className="headshot"/>
-                    <div className="education"></div>
+                    <div className="headshot-frame"></div>
+                    {/* <img src={headshot} alt="headshot" className="headshot"/> */}
+                    <div className="education">
+                        <p className="edu-title">Education</p>
+                        <p className="edu-lower">Northwestern University</p>
+                        <p className="edu-lower">Bachelor's of Arts - Computer Science</p>
+                        <p className="edu-lower">Class of 2025</p>
+                    </div>
                 </div>
                 <div className="about-right">
-                     <div className="experience"></div>
+                     <div className="experience">
+                        <p className="exp-title">Experience</p>
+                        <div className="exp-line"></div>
+                     </div>
                 </div>
             </div>
         </div>
