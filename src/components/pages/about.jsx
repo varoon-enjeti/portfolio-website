@@ -24,7 +24,9 @@ export default function About({setAbout}) {
                 <div className="about-right">
                      <div className="experience">
                         <p className="exp-title">Experience</p>
-                        <div className="exp-line"></div>
+                        <div className="exp-line-container">
+                            <div className="exp-line"></div>
+                        </div>
                      </div>
                 </div>
             </div>

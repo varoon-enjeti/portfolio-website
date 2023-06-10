@@ -106,8 +106,36 @@
     box-shadow: 0 0 6px #2C2C2C;
     background: #FFFFFF;
     transition: transform .25s;
+    display: flex;
+    flex-direction: column;
 }
 
 .experience:hover {
     transform: scale(1.02);
+}
+
+.exp-title {
+    color: #2C2C2C;
+    font-family: 'Helvetica';
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: -0.04em;
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.exp-line-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exp-line {
+    width: 24px;
+    height: 350px;
+    background: #F9D923;
+    border-radius: 30px;
 }
