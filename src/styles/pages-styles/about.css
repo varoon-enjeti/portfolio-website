@@ -188,16 +188,41 @@
 }
 
 @media screen and (max-width: 620px) {
+    .about-content {
+        margin-right: 5%;
+        margin-left: 5%;
+        justify-content: unset;
+    }
+
+    .headshot-frame {
+        height: 335px;
+        width: 38vw;
+    }
+
+    .education {
+        height: 115px;
+    }
+
     .edu-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        margin-top: 6px;
+        line-height: 1.8rem;
+        margin-left: 8px;
     }
 
     .edu-lower {
-        font-size: 1rem;
+        font-size: 0.85rem;
+        margin-left: 9px;
+        line-height: 1.1rem;
+    }
+
+    .experience {
+        width: 42vw;
+        max-width: 220px;
     }
 
     .exp-title {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .exp-line-container {
