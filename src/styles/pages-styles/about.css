@@ -237,7 +237,7 @@
 
     .exp-cards {
         margin-top: 20px;
-        gap: 26px;
+        gap: 28.5px;
     }
 
     .exp-dots {
@@ -249,5 +249,9 @@
         width: 8px;
         height: 8px;
         margin-left: -12px;
+    }
+
+    .headshot-frame {
+        background-position-x: -150px;
     }
 }
