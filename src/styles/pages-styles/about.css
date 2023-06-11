@@ -183,3 +183,36 @@
 #fourd {
     animation: 5s ease-out expFourIn;
 }
+
+@media screen and (max-width: 620px) {
+    .edu-title {
+        font-size: 2rem;
+    }
+
+    .edu-lower {
+        font-size: 1rem;
+    }
+
+    .exp-title {
+        font-size: 2rem;
+    }
+
+    .exp-line-container {
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+
+    .exp-line {
+        width: 12px;
+    }
+
+    .exp-dots {
+        margin-top: 30px;
+    }
+
+    .dot {
+        width: 8px;
+        height: 8px;
+        margin-left: -12px;
+    }
+}
