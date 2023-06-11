@@ -123,4 +123,19 @@
     animation: 4.5s ease-out expFourIn;
 }
 
+@media screen and (max-width: 620px) {
+    .expcard {
+        width: 140px;
+        height: 50px;
+        gap: 0;
+    }
 
+    .exp-card-company, .exp-card-date, .exp-card-role {
+        font-size: 0.67rem;
+        margin-left: 6px;
+    }
+
+    #one, #two, #three, #four {
+        margin-left: 20px;
+    }
+}

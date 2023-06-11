@@ -146,6 +146,9 @@
     height: 350px;
     background: #F9D923;
     border-radius: 30px;
+}
+
+.exp-cards {
     display: flex;
     flex-direction: column;
     gap: 3px;
@@ -181,7 +184,7 @@
 }
 
 #fourd {
-    animation: 5s ease-out expFourIn;
+    animation: 4.5s ease-out expFourIn;
 }
 
 @media screen and (max-width: 620px) {
@@ -204,10 +207,17 @@
 
     .exp-line {
         width: 12px;
+        gap: 30px;
+    }
+
+    .exp-cards {
+        margin-top: 20px;
+        gap: 26px;
     }
 
     .exp-dots {
-        margin-top: 30px;
+        margin-top: 15px;
+        gap: 38px;
     }
 
     .dot {
