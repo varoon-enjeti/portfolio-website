@@ -2,6 +2,8 @@ import React from 'react';
 import '../../styles/pages-styles/about.css';
 import ExpCard from './page-components/expcard';
 
+// Commit for the day
+
 export default function About({setAbout}) {
     return (
         <div className="subpage">
