@@ -84,6 +84,22 @@
     transform: rotate(-45deg);
 }
 
+.proj-content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.proj-line {
+    height: 24px;
+    width: 1000px;
+    background: #EB5353;
+    border-radius: 30px;
+    margin-bottom: 120px;
+}
+
 @media screen and (max-width: 620px) { 
     .subpage {
         top: 54px;

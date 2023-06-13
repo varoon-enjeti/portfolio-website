@@ -1,4 +1,5 @@
 import React from 'react'
+import ProjCard from './page-components/projcard';
 import '../../styles/pages-styles/projects.css';
 
 export default function Project({setProject}) {
@@ -9,6 +10,12 @@ export default function Project({setProject}) {
                 <div className="x" id="right"></div>
             </button>
             <div className="title" id="p-title">Projects</div>
+            <div className="proj-content">
+                <div className="proj-line">
+                    <div className="proj-cards">
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
