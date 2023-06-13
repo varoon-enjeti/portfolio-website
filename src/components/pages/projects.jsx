@@ -13,6 +13,41 @@ export default function Project({setProject}) {
             <div className="proj-content">
                 <div className="proj-line">
                     <div className="proj-cards">
+                        <ProjCard
+                            name={"Portfolio Website"}
+                            description={"varoon.xyz"}
+                            tools={["Python", "Artificial Intelligence"]}
+                            image={"../../resources/pfp.png"}
+                            link={"https://github.com/varoon-enjeti/portfolio-website"}
+                        />
+                        <ProjCard
+                            name={"Portfolio Website"}
+                            description={"varoon.xyz"}
+                            tools={["Python", "Artificial Intelligence"]}
+                            image={"../../resources/pfp.png"}
+                            link={"https://github.com/varoon-enjeti/portfolio-website"}
+                        />
+                        <ProjCard
+                            name={"Portfolio Website"}
+                            description={"varoon.xyz"}
+                            tools={["Python", "Artificial Intelligence"]}
+                            image={"../../resources/pfp.png"}
+                            link={"https://github.com/varoon-enjeti/portfolio-website"}
+                        />
+                        <ProjCard
+                            name={"Portfolio Website"}
+                            description={"varoon.xyz"}
+                            tools={["Python", "Artificial Intelligence"]}
+                            image={"../../resources/pfp.png"}
+                            link={"https://github.com/varoon-enjeti/portfolio-website"}
+                        />
+                        <ProjCard
+                            name={"Portfolio Website"}
+                            description={"varoon.xyz"}
+                            tools={["Python", "Artificial Intelligence"]}
+                            image={"../../resources/pfp.png"}
+                            link={"https://github.com/varoon-enjeti/portfolio-website"}
+                        />
                     </div>
                 </div>
             </div>
