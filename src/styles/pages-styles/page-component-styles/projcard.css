@@ -1,7 +1,12 @@
 .projcard {
-    width: 220px;
-    height: 235px;
+    width: 270px;
+    height: 230px;
     background: #FFFFFF;
     border: 4px solid #2C2C2C;
     border-radius: 30px;
+    transition: transform .25s;
+}
+
+.projcard:hover {
+    transform: scale(1.05);
 }

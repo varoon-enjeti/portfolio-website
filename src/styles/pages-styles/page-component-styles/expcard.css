@@ -112,15 +112,15 @@
 }
 
 #two {
-    animation: 3s ease-out expTwoIn;
+    animation: 2.5s ease-out expTwoIn;
 }
 
 #three {
-    animation: 4s ease-out expThreeIn;
+    animation: 3.0s ease-out expThreeIn;
 }
 
 #four {
-    animation: 4.5s ease-out expFourIn;
+    animation: 3.5s ease-out expFourIn;
 }
 
 @media screen and (max-width: 620px) {
