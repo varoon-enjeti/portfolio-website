@@ -13,7 +13,7 @@
         opacity: 0%;
     }
 
-    20% {
+    25% {
         opacity: 0%;
     }
 
@@ -27,7 +27,7 @@
         opacity: 0%;
     }
 
-    30% {
+    50% {
         opacity: 0%;
     }
 
@@ -41,7 +41,7 @@
         opacity: 0%;
     }
 
-    40% {
+    75% {
         opacity: 0%;
     }
 
@@ -108,19 +108,19 @@
 }
 
 #one {
-    animation: 2s ease-out expOneIn;
+    animation: 2.75s ease-out expOneIn;
 }
 
 #two {
-    animation: 2.5s ease-out expTwoIn;
+    animation: 2.75s ease-out expTwoIn;
 }
 
 #three {
-    animation: 3.0s ease-out expThreeIn;
+    animation: 2.75s ease-out expThreeIn;
 }
 
 #four {
-    animation: 3.5s ease-out expFourIn;
+    animation: 2.75s ease-out expFourIn;
 }
 
 @media screen and (max-width: 620px) {

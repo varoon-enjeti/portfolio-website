@@ -172,19 +172,19 @@
 }
 
 #oned {
-    animation: 2s ease-out expOneIn;
+    animation: 2.75s ease-out expOneIn;
 }
 
 #twod {
-    animation: 3s ease-out expTwoIn;
+    animation: 2.75s ease-out expTwoIn;
 }
 
 #threed {
-    animation: 4s ease-out expThreeIn;
+    animation: 2.75s ease-out expThreeIn;
 }
 
 #fourd {
-    animation: 4.5s ease-out expFourIn;
+    animation: 2.75s ease-out expFourIn;
 }
 
 @media screen and (max-width: 620px) {
