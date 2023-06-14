@@ -18,7 +18,7 @@ export default function Project({setProject}) {
                                 name={"Portfolio Website"}
                                 description={"varoon.xyz"}
                                 tools={["Python", "Artificial Intelligence"]}
-                                image={"../../resources/pfp.png"}
+                                image={"../../../resources/pfp.png"}
                                 link={"https://github.com/varoon-enjeti/portfolio-website"}
                                 id={"onep"}
                             />
@@ -26,7 +26,7 @@ export default function Project({setProject}) {
                                 name={"Portfolio Website"}
                                 description={"varoon.xyz"}
                                 tools={["Python", "Artificial Intelligence"]}
-                                image={"../../resources/pfp.png"}
+                                image={"../../../resources/pfp.png"}
                                 link={"https://github.com/varoon-enjeti/portfolio-website"}
                                 id={"twop"}
                             />
@@ -36,7 +36,7 @@ export default function Project({setProject}) {
                                 name={"Portfolio Website"}
                                 description={"varoon.xyz"}
                                 tools={["Python", "Artificial Intelligence"]}
-                                image={"../../resources/pfp.png"}
+                                image={"../../../resources/pfp.png"}
                                 link={"https://github.com/varoon-enjeti/portfolio-website"}
                                 id={"threep"}
                             />
@@ -44,7 +44,7 @@ export default function Project({setProject}) {
                                 name={"Portfolio Website"}
                                 description={"varoon.xyz"}
                                 tools={["Python", "Artificial Intelligence"]}
-                                image={"../../resources/pfp.png"}
+                                image={"../../../resources/pfp.png"}
                                 link={"https://github.com/varoon-enjeti/portfolio-website"}
                                 id={"fourp"}
                             />
@@ -52,7 +52,7 @@ export default function Project({setProject}) {
                                 name={"Portfolio Website"}
                                 description={"varoon.xyz"}
                                 tools={["Python", "Artificial Intelligence"]}
-                                image={"../../resources/pfp.png"}
+                                image={"../../../resources/pfp.png"}
                                 link={"https://github.com/varoon-enjeti/portfolio-website"}
                                 id={"fivep"}
                             />
