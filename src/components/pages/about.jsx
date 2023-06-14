@@ -16,7 +16,7 @@ export default function About({setAbout}) {
                     <div className="education">
                         <p className="edu-title">Education</p>
                         <p className="edu-lower">Northwestern University</p>
-                        <p className="edu-lower">Bachelor of Arts - Computer Science</p>
+                        <p className="edu-lower">Bachelor's Degree - Computer Science</p>
                         <p className="edu-lower">Class of 2025</p>
                     </div>
                 </div>
