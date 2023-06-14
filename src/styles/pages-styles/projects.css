@@ -101,10 +101,31 @@
 }
 
 .proj-cards {
+    height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj-top {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
 }
+
+.proj-bot {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* #onep {
+    margin-top: -100px;
+} */
 
 @media screen and (max-width: 620px) { 
     .subpage {
