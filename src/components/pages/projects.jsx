@@ -20,41 +20,41 @@ export default function Project({setProject}) {
                                 description={"Markov Decision Process - Reinforcement Learning Algorithm"}
                                 tools={["Python", "Artificial Intelligence"]}
                                 image={pfp}
-                                link={"https://github.com/varoon-enjeti/portfolio-website"}
+                                link={"https://github.com/varoon-enjeti/mdp-pathfinder"}
                                 id={"onep"}
                             />
                             <ProjCard
                                 name={"mlt-stt-api"}
-                                description={"Markov Decision Process - Reinforcement Learning Algorithm"}
-                                tools={["Python", "Artificial Intelligence"]}
+                                description={"Mixed-Language Interpreting Speech-to-Text API"}
+                                tools={["Python", "Deepgram API", "Pandas"]}
                                 image={pfp}
-                                link={"https://github.com/varoon-enjeti/portfolio-website"}
+                                link={"https://github.com/varoon-enjeti/mli-stt-api"}
                                 id={"twop"}
                             />
                         </div>
                         <div className="proj-bot">
                             <ProjCard
                                 name={"Portfolio Website"}
-                                description={"Markov Decision Process - Reinforcement Learning Algorithm"}
-                                tools={["Python", "Artificial Intelligence"]}
+                                description={"varoon.xyz"}
+                                tools={["React.js", "Node.js"]}
                                 image={pfp}
                                 link={"https://github.com/varoon-enjeti/portfolio-website"}
                                 id={"threep"}
                             />
                             <ProjCard
-                                name={"Portfolio Website"}
-                                description={"Markov Decision Process - Reinforcement Learning Algorithm"}
-                                tools={["Python", "Artificial Intelligence"]}
+                                name={"Pac-Man++"}
+                                description={"Fully Functional Pac-Man Game"}
+                                tools={["C++", "GE211"]}
                                 image={pfp}
                                 link={"https://github.com/varoon-enjeti/portfolio-website"}
                                 id={"fourp"}
                             />
                             <ProjCard
-                                name={"Portfolio Website"}
-                                description={"Markov Decision Process - Reinforcement Learning Algorithm"}
-                                tools={["Python", "Artificial Intelligence"]}
+                                name={"4-Function Calculator"}
+                                description={"Fully Functional Calculator with a GUI"}
+                                tools={["Python", "Tkinter"]}
                                 image={pfp}
-                                link={"https://github.com/varoon-enjeti/portfolio-website"}
+                                link={"https://github.com/varoon-enjeti/4-Function-Calculator"}
                                 id={"fivep"}
                             />
                         </div>
