@@ -1,6 +1,6 @@
 import React from 'react';
 import "../../../styles/pages-styles/page-component-styles/projcard.css"
-import pfp from "../../../resources/pfp.png"
+import ghlogo from "../../../resources/ghlogo.png"
 
 export default function ProjCard({name, description, tools, image, link, id}) {
     const bannerImageStyle = {
@@ -22,6 +22,9 @@ export default function ProjCard({name, description, tools, image, link, id}) {
                     {tools.map((tool) => (
                         <div className="tool">{tool}</div>
                     ))}
+                    <a href={link} target="_blank" className="ghlink">
+                        <img src={ghlogo} alt="GitHub Logo" className="ghlogo" />
+                    </a>
                 </div>
             </div>
         </div>

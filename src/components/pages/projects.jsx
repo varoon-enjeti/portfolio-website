@@ -24,7 +24,7 @@ export default function Project({setProject}) {
                                 id={"onep"}
                             />
                             <ProjCard
-                                name={"Portfolio Website"}
+                                name={"mlt-stt-api"}
                                 description={"Markov Decision Process - Reinforcement Learning Algorithm"}
                                 tools={["Python", "Artificial Intelligence"]}
                                 image={pfp}

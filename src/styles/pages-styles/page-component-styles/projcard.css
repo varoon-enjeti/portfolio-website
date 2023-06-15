@@ -1,7 +1,3 @@
-p {
-    margin: 0;
-}
-
 .projcard {
     width: 290px;
     height: 250px;
@@ -36,6 +32,7 @@ p {
     font-size: 1rem;
     letter-spacing: -0.04em;
     color: #2C2C2C;
+    margin: 0;
 }
 
 .proj-card-desc {
@@ -47,14 +44,18 @@ p {
     color: #2C2C2C;
     width: 70%;
     line-height: 0.7rem;
+    margin: 0;
 }
 
 .tools {
     display: flex;
     flex-direction: row;
-    /* margin-left: 2px; */
+
+    align-items: flex-start;
     gap: 5px;
     margin-top: 3px;
+    width: 100%;
+    height: 100%;
 }
 
 .tool {
@@ -68,4 +69,18 @@ p {
     border: 1px solid #2C2C2C;
     border-radius: 15px;
     padding: 0px 4px;
+}
+
+.ghlink {
+    width: 70px;
+    margin-left: 45px;
+    margin-top: -5px;
+}
+
+.ghlogo {
+    width: 100%;
+}
+
+.ghlogo:hover {
+    content: url("../../../resources/ghhover.png");
 }
