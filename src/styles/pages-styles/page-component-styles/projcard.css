@@ -1,18 +1,71 @@
+p {
+    margin: 0;
+}
+
 .projcard {
-    width: 270px;
-    height: 230px;
+    width: 290px;
+    height: 250px;
     background: #FFFFFF;
     border: 4px solid #2C2C2C;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 0 0 6px #2C2C2C;
     transition: transform .25s;
     animation: bubbleLoad 0.75s;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 .projcard:hover {
     transform: scale(1.05);
 }
 
-/* .proj-frame {
-    background: url("../../../resources/pfp.png");
-} */
+.proj-card-lower {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.proj-card-name {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -0.04em;
+    color: #2C2C2C;
+}
+
+.proj-card-desc {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: -0.04em;
+    color: #2C2C2C;
+    width: 70%;
+    line-height: 0.7rem;
+}
+
+.tools {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 2px; */
+    gap: 5px;
+    margin-top: 3px;
+}
+
+.tool {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    letter-spacing: -0.04em;
+    color: #2C2C2C;
+    background: #B6DDF3;
+    border: 1px solid #2C2C2C;
+    border-radius: 15px;
+    padding: 0px 4px;
+}

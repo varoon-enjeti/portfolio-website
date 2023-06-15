@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjCard from './page-components/projcard';
 import '../../styles/pages-styles/projects.css';
+import pfp from "../../resources/pfp.png";
 
 export default function Project({setProject}) {
     return (
@@ -15,18 +16,18 @@ export default function Project({setProject}) {
                     <div className="proj-cards">
                         <div className="proj-top">
                             <ProjCard
-                                name={"Portfolio Website"}
-                                description={"varoon.xyz"}
+                                name={"MDP - Pathfinder"}
+                                description={"Markov Decision Process - Reinforcement Learning Algorithm"}
                                 tools={["Python", "Artificial Intelligence"]}
-                                image={"../../../resources/pfp.png"}
+                                image={pfp}
                                 link={"https://github.com/varoon-enjeti/portfolio-website"}
                                 id={"onep"}
                             />
                             <ProjCard
                                 name={"Portfolio Website"}
-                                description={"varoon.xyz"}
+                                description={"Markov Decision Process - Reinforcement Learning Algorithm"}
                                 tools={["Python", "Artificial Intelligence"]}
-                                image={"../../../resources/pfp.png"}
+                                image={pfp}
                                 link={"https://github.com/varoon-enjeti/portfolio-website"}
                                 id={"twop"}
                             />
@@ -34,25 +35,25 @@ export default function Project({setProject}) {
                         <div className="proj-bot">
                             <ProjCard
                                 name={"Portfolio Website"}
-                                description={"varoon.xyz"}
+                                description={"Markov Decision Process - Reinforcement Learning Algorithm"}
                                 tools={["Python", "Artificial Intelligence"]}
-                                image={"../../../resources/pfp.png"}
+                                image={pfp}
                                 link={"https://github.com/varoon-enjeti/portfolio-website"}
                                 id={"threep"}
                             />
                             <ProjCard
                                 name={"Portfolio Website"}
-                                description={"varoon.xyz"}
+                                description={"Markov Decision Process - Reinforcement Learning Algorithm"}
                                 tools={["Python", "Artificial Intelligence"]}
-                                image={"../../../resources/pfp.png"}
+                                image={pfp}
                                 link={"https://github.com/varoon-enjeti/portfolio-website"}
                                 id={"fourp"}
                             />
                             <ProjCard
                                 name={"Portfolio Website"}
-                                description={"varoon.xyz"}
+                                description={"Markov Decision Process - Reinforcement Learning Algorithm"}
                                 tools={["Python", "Artificial Intelligence"]}
-                                image={"../../../resources/pfp.png"}
+                                image={pfp}
                                 link={"https://github.com/varoon-enjeti/portfolio-website"}
                                 id={"fivep"}
                             />
