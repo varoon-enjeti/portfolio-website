@@ -2,6 +2,10 @@ import React from 'react'
 import ProjCard from './page-components/projcard';
 import '../../styles/pages-styles/projects.css';
 import pfp from "../../resources/pfp.png";
+import mdp from "../../resources/mdp.jpg";
+import mlt from "../../resources/mlt.jpg";
+import pacman from "../../resources/pacman.jpg";
+import calc from "../../resources/calc.png";
 
 export default function Project({setProject}) {
     return (
@@ -19,7 +23,7 @@ export default function Project({setProject}) {
                                 name={"MDP - Pathfinder"}
                                 description={"Markov Decision Process - Reinforcement Learning Algorithm"}
                                 tools={["Python", "Artificial Intelligence"]}
-                                image={pfp}
+                                image={mdp}
                                 link={"https://github.com/varoon-enjeti/mdp-pathfinder"}
                                 id={"onep"}
                             />
@@ -27,7 +31,7 @@ export default function Project({setProject}) {
                                 name={"mlt-stt-api"}
                                 description={"Mixed-Language Interpreting Speech-to-Text API"}
                                 tools={["Python", "Deepgram API", "Pandas"]}
-                                image={pfp}
+                                image={mlt}
                                 link={"https://github.com/varoon-enjeti/mli-stt-api"}
                                 id={"twop"}
                             />
@@ -45,7 +49,7 @@ export default function Project({setProject}) {
                                 name={"Pac-Man++"}
                                 description={"Fully Functional Pac-Man Game"}
                                 tools={["C++", "GE211"]}
-                                image={pfp}
+                                image={pacman}
                                 link={"https://github.com/varoon-enjeti/portfolio-website"}
                                 id={"fourp"}
                             />
@@ -53,7 +57,7 @@ export default function Project({setProject}) {
                                 name={"4-Function Calculator"}
                                 description={"Fully Functional Calculator with a GUI"}
                                 tools={["Python", "Tkinter"]}
-                                image={pfp}
+                                image={calc}
                                 link={"https://github.com/varoon-enjeti/4-Function-Calculator"}
                                 id={"fivep"}
                             />

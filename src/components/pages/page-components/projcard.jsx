@@ -10,6 +10,7 @@ export default function ProjCard({name, description, tools, image, link, id}) {
         backgroundSize: 'cover',
         borderRadius: "15px 15px 0px 0px",
         borderBottom: "4px solid #2C2C2C",
+        backgroundPositionY: -25
     };
 
     return (
