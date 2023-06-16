@@ -17,7 +17,7 @@ export default function ProjCard({name, description, tools, image, link, id}) {
             <div className="proj-frame" style={bannerImageStyle}></div>
             <div className="proj-card-lower">
                 <p className="proj-card-name">{name}</p>
-                <p className="proj-card-desc">{description}</p>
+                {(id === "threep") ? (<a href='varoon.xyz' className="proj-card-desc">{description}</a>) : (<p className="proj-card-desc">{description}</p>)}
                 <div className="tools">
                     {tools.map((tool) => (
                         <div className="tool">{tool}</div>
