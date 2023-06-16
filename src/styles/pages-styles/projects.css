@@ -134,6 +134,15 @@
     margin-top: 40px;
 }
 
+.proj-dots {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: -56px;
+    margin-left: 215px;
+    gap: 200px;
+}
+
 @media screen and (max-width: 620px) { 
     .subpage {
         top: 54px;

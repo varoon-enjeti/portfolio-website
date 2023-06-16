@@ -59,6 +59,13 @@ export default function Project({setProject}) {
                             />
                         </div>
                     </div>
+                    <div className="proj-dots">
+                        <div className="dot"></div>
+                        <div className="dot"></div>
+                        <div className="dot"></div>
+                        <div className="dot"></div>
+                        <div className="dot"></div>
+                    </div>
                 </div>
             </div>
         </div>
