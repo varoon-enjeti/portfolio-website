@@ -25,7 +25,7 @@ export default function ProjCard({name, description, tools, image, link, id}) {
 
     return (
         <div className="projcard" id={id}>
-            <div className="proj-frame" style={bannerMobile}></div>
+            <div className="proj-frame" style={bannerImageStyle}></div>
             <div className="proj-card-lower">
                 <p className="proj-card-name">{name}</p>
                 {(id === "threep") ? (<a href='varoon.xyz' className="proj-card-desc">{description}</a>) : (<p className="proj-card-desc">{description}</p>)}
