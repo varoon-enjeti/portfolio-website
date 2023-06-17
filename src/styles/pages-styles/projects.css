@@ -158,7 +158,7 @@
     .proj-line {
         width: 12px;
         height: 500px;
-        margin-left: -400px;
+        margin-left: -50px;
         margin-top: 25px;
     }
 
@@ -167,5 +167,21 @@
         margin-top: -500px;
         margin-left: 12px;
         gap: 57px;
+    }
+
+    .proj-cards {
+        flex-direction: row;
+        /* align-items: unset;
+        justify-content: unset; */
+        margin-left: -70px;
+        gap: 200px;
+    }
+
+    .proj-top {
+        flex-direction: column;
+    }
+
+    .proj-bot {
+        flex-direction: column;
     }
 }

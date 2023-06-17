@@ -13,9 +13,19 @@ export default function ProjCard({name, description, tools, image, link, id}) {
         backgroundPositionY: -25
     };
 
+    const bannerMobile = {
+        width: `100%`,
+        height: `71%`,
+        background: `url(${image})`,
+        backgroundSize: 'cover',
+        borderRadius: "8px 8px 0px 0px",
+        borderBottom: "2px solid #2C2C2C",
+        backgroundPositionY: -25
+    }
+
     return (
         <div className="projcard" id={id}>
-            <div className="proj-frame" style={bannerImageStyle}></div>
+            <div className="proj-frame" style={bannerMobile}></div>
             <div className="proj-card-lower">
                 <p className="proj-card-name">{name}</p>
                 {(id === "threep") ? (<a href='varoon.xyz' className="proj-card-desc">{description}</a>) : (<p className="proj-card-desc">{description}</p>)}

@@ -134,4 +134,22 @@
 #threep > .proj-card-lower > .proj-card-desc:hover {
     color: dodgerblue;
 }
+
+@media screen and (max-width: 620px) {
+    .projcard {
+        width: 160px;
+        height: 120px;
+        border: 2px solid #2C2C2C;
+        border-radius: 10px;
+    }
+
+    .proj-card-lower {
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+
+    .proj-card-name {
+        font-size: 0.5rem;
+    }
+}
         
