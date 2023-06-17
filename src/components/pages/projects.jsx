@@ -18,7 +18,7 @@ export default function Project({setProject}) {
             <div className="proj-content">
                 <div className="proj-line">
                     <div className="proj-cards">
-                        <div className="proj-top">
+                        {/* <div className="proj-top">
                             <ProjCard
                                 name={"MDP - Pathfinder"}
                                 description={"Markov Decision Process - Reinforcement Learning Algorithm"}
@@ -61,7 +61,7 @@ export default function Project({setProject}) {
                                 link={"https://github.com/varoon-enjeti/4-Function-Calculator"}
                                 id={"fivep"}
                             />
-                        </div>
+                        </div> */}
                     </div>
                     <div className="proj-dots">
                         <div className="dot"></div>
