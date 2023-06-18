@@ -184,4 +184,12 @@
     .proj-bot {
         flex-direction: column;
     }
+
+    #onep, #twop {
+        margin-top: 0px;
+    }
+    
+    #threep, #fourp, #fivep {
+        margin-top: 0px;
+    }
 }
