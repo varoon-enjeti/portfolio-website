@@ -171,8 +171,38 @@
 
     .ghlink {
         width: 40px;
-        /* margin: 0; */
         margin-left: 21px;
+    }
+
+    #twop>.proj-card-lower>.tools>.ghlink {
+        margin-left: 0px;
+    }
+    
+    #threep>.proj-card-lower {
+        justify-content: space-between;
+        gap: 2.5px;
+    }
+
+    #fourp>.proj-card-lower {
+        justify-content: space-between;
+        gap: 2.5px;
+    }
+
+    #fivep>.proj-card-lower {
+        justify-content: space-between;
+        gap: 2.5px;
+    }
+
+    #threep>.proj-card-lower>.tools>.ghlink {
+        margin-left: 45px;
+    }
+
+    #fourp>.proj-card-lower>.tools>.ghlink {
+        margin-left: 55px;
+    }
+
+    #fivep>.proj-card-lower>.tools>.ghlink {
+        margin-left: 50px;
     }
 }
         

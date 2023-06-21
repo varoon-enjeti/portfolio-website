@@ -171,8 +171,6 @@
 
     .proj-cards {
         flex-direction: row;
-        /* align-items: unset;
-        justify-content: unset; */
         margin-left: -70px;
         gap: 200px;
     }
