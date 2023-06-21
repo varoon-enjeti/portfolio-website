@@ -158,8 +158,6 @@
     .proj-line {
         width: 12px;
         height: 500px;
-        margin-left: -50px;
-        margin-top: 25px;
     }
 
     .proj-dots {
@@ -171,7 +169,7 @@
 
     .proj-cards {
         flex-direction: row;
-        margin-left: -70px;
+        margin-left: -73px;
         gap: 200px;
     }
 
