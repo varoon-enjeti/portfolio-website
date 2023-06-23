@@ -7,3 +7,8 @@
         linear-gradient(90deg, #00000010 2px, transparent 2px);
     background-size: 1em 1em;
 }
+
+.lines {
+    height: 790px;
+    width: 1440px;
+}

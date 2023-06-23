@@ -9,7 +9,6 @@ import pacman from "../../resources/pacman.jpg";
 import calc from "../../resources/calc.png";
 
 export default function Project({setProject}) {
-
     return (
         <div className="subpage">
             <button onClick={() => {setProject(false)}} className="close" id="p-close">

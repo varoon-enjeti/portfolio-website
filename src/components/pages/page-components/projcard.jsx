@@ -5,7 +5,7 @@ import ghlogo from "../../../resources/ghlogo.png"
 
 export default function ProjCard({name, description, tools, image, link, id}) {
     const [windowSize, setWindowSize] = useState([
-        window.innerWidth
+        window.innerWidth,
     ]);
 
     useEffect(() => {
