@@ -8,6 +8,11 @@
     background-size: 1em 1em;
 }
 
+.lines-center {
+    height: 100%;
+    width: 100%;
+}
+
 .lines {
     height: 790px;
     width: 1440px;
