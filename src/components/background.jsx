@@ -33,11 +33,13 @@ export default function Background() {
                 contactLive={contactLive}
                 setContact={setContact}
             />
-            <div className="lines">
-                <Yellowline setAbout={setAbout}/>
-                <Redline setProject={setProject}/>
-                <Greenline setInterests={setInterests}/>
-                <Blueline setContact={setContact}/>
+            <div className="lines-center">
+                <div className="lines">
+                    <Yellowline setAbout={setAbout}/>
+                    <Redline setProject={setProject}/>
+                    <Greenline setInterests={setInterests}/>
+                    <Blueline setContact={setContact}/>
+                </div>
             </div>
             <div className="pages">
                 {projectLive ? (<Project setProject={setProject}/>) : (null)}
