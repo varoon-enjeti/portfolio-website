@@ -46,7 +46,7 @@ textarea:focus, input:focus {
     background-color: #187498;
     color: #FFFFFF;
     font-weight: 700;
-    /* -webkit-text-stroke: 0.75px #2C2C2C; */
+    -webkit-text-stroke: 0.5px #2C2C2C;
     transition: transform .25s;
 }
 
