@@ -14,6 +14,7 @@ export default function Contact({setContact}) {
                     <input className='cont-form' type="text" placeholder='Name' />
                     <input className='cont-form' type="text" placeholder='Email' />
                     <textarea className='cont-form' id='message' type="text" placeholder='Message' />
+                    <input className='cont-form' id='cont-sub' type="submit" value="Let's Chat!" onClic={() => {}} />
                 </form>
             </div>
         </div>

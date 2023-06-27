@@ -29,6 +29,7 @@
     font-weight: 300;
     color: #727272;
     padding: 0px 10px;
+    background-color: #FFFFFF;
 }
 
 textarea:focus, input:focus {
@@ -38,4 +39,16 @@ textarea:focus, input:focus {
 #message {
     padding: 10px 10px;
     height: 250px;
+}
+
+#cont-sub {
+    background-color: #187498;
+    color: #FFFFFF;
+    font-weight: 700;
+    -webkit-text-stroke: 0.75px #2C2C2C;
+    transition: transform .25s;
+}
+
+#cont-sub:hover {
+    transform: scale(1.05);
 }
