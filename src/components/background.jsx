@@ -18,9 +18,6 @@ export default function Background() {
     const [interestsLive, setInterests] = useState(false);
     const [contactLive, setContact] = useState(false);
 
-    // console.log(window.innerWidth)
-    // console.log(window.innerHeight)
-
     return (
         <div className="background">
             <Header 
