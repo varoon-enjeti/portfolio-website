@@ -9,6 +9,11 @@ export default function Contact({setContact}) {
                 <div className="x" id="right"></div>
             </button>
             <div className="title" id="c-title">Contact</div>
+            <form className="content-box">
+                <input type="text" />
+                <input type="text" />
+                <input type="text" />
+            </form>
         </div>
     );
 }
