@@ -7,12 +7,15 @@ export default function Contact({setContact}) {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setStatus("Sending...");
-        const { name, email, message } = e.target.elements;
+        const { cname, cemail, cmessage } = e.target.elements;
         let details = {
-            name: name.value,
-            email: email.value,
-            message: message.value,
+            name: cname.value,
+            email: cemail.value,
+            message: cmessage.value,
         };
+        // console.log(details.name);
+        // console.log(details.email);
+        // console.log(details.message);
         let response = await fetch("http://localhost:5000/contact", {
             method: "POST",
             headers: {
@@ -33,11 +36,11 @@ export default function Contact({setContact}) {
             </button>
             <div className="title" id="c-title">Contact</div>
             <div className="contact-bottom">
-                <form className="contact-box">
-                    <input className='cont-form' type="text" placeholder='Name' />
-                    <input className='cont-form' type="text" placeholder='Email' />
-                    <textarea className='cont-form' id='message' type="text" placeholder='Message' />
-                    <button className='cont-form' id='cont-btn'>{status}</button>
+                <form className="contact-box" onSubmit={handleSubmit}>
+                    <input className='cont-form' type="text" id='cname' placeholder='Name' />
+                    <input className='cont-form' type="email" id='cemail' placeholder='Email' />
+                    <textarea className='cont-form' id='cmessage' type="text" placeholder='Message' />
+                    <button className='cont-form' id='cont-btn' type='submit'>{status}</button>
                 </form>
             </div>
         </div>
