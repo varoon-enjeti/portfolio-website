@@ -39,16 +39,17 @@ textarea:focus, input:focus {
 #message {
     padding: 10px 10px;
     height: 250px;
+    resize: none;
 }
 
-#cont-sub {
+#cont-btn {
     background-color: #187498;
     color: #FFFFFF;
     font-weight: 700;
-    -webkit-text-stroke: 0.75px #2C2C2C;
+    /* -webkit-text-stroke: 0.75px #2C2C2C; */
     transition: transform .25s;
 }
 
-#cont-sub:hover {
+#cont-btn:hover {
     transform: scale(1.05);
 }
