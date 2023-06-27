@@ -27,9 +27,26 @@
     font-size: 1.25rem;
     font-family: 'Helvetica';
     font-weight: 300;
-    color: #727272;
+    color: #2C2C2C;
     padding: 0px 10px;
     background-color: #FFFFFF;
+}
+
+.cont-form::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #727272;
+    opacity: 1;
+    /* Firefox */
+}
+
+.cont-form:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #727272;
+}
+
+.cont-form::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #727272;
 }
 
 textarea:focus, input:focus {
