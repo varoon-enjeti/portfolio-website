@@ -34,19 +34,19 @@
 
 .cont-form::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #727272;
+    color: #979797;
     opacity: 1;
     /* Firefox */
 }
 
 .cont-form:-ms-input-placeholder {
     /* Internet Explorer 10-11 */
-    color: #727272;
+    color: #979797;
 }
 
 .cont-form::-ms-input-placeholder {
     /* Microsoft Edge */
-    color: #727272;
+    color: #979797;
 }
 
 textarea:focus, input:focus {
