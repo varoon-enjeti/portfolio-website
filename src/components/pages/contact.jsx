@@ -3,44 +3,44 @@ import { useState } from "react";
 import '../../styles/pages-styles/contact.css';
 
 export default function Contact({setContact}) {
-    const [status, setStatus] = useState("Let's Connect!");
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        setStatus("Sending...");
-        const { cname, cemail, cmessage } = e.target.elements;
-        let details = {
-            name: cname.value,
-            email: cemail.value,
-            message: cmessage.value,
-        };
-        // console.log(details.name);
-        // console.log(details.email);
-        // console.log(details.message);
-        let response = await fetch("http://localhost:5000/contact", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json;charset=utf-8",
-            },
-            body: JSON.stringify(details),
-        });
-        setStatus("Lets's Connect");
-        let result = await response.json();
-        alert(result.status);
-    };
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: '',
+            email: '',
+            message: ''
+        }
+    }
+
+    onNameChange(event) {
+        this.setState({name: event.target.value})
+    }
+
+    onEmailChange(event) {
+        this.setState({email: event.target.value})
+    }
+
+    onSubjectChange(event) {
+        this.setState({subject: event.target.value})
+    }
+
+    onMsgChange(event) {
+        this.setState({message: event.target.value})
+    }
 
     return (
         <div className="subpage">
-            <button onClick={() => {setContact(false)}} className="close" id="c-close">
+            <button onClick={() => {}} className="close" id="c-close">
                 <div className="x"></div>
                 <div className="x" id="right"></div>
             </button>
             <div className="title" id="c-title">Contact</div>
             <div className="contact-bottom">
-                <form className="contact-box" onSubmit={handleSubmit}>
+                <form className="contact-box">
                     <input className='cont-form' type="text" id='cname' placeholder='Name' />
                     <input className='cont-form' type="email" id='cemail' placeholder='Email' />
                     <textarea className='cont-form' id='cmessage' type="text" placeholder='Message' />
-                    <button className='cont-form' id='cont-btn' type='submit'>{status}</button>
+                    <button className='cont-form' id='cont-btn' type='submit'>Send</button>
                 </form>
             </div>
         </div>
