@@ -96,10 +96,17 @@ textarea:focus, input:focus {
 }
 
 @media screen and (max-width: 620px) {
+    .contact-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .contact-box {
         width: 60vw;
         gap: 15px;
-        margin-top: 40px;
+        margin-top: 80px;
     }
 
     .cont-form {
