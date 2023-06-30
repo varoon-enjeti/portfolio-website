@@ -3,31 +3,6 @@ import { useState } from "react";
 import '../../styles/pages-styles/contact.css';
 
 export default function Contact({setContact}) {
-    constructor(props) {
-        super(props);
-        this.state = {
-            name: '',
-            email: '',
-            message: ''
-        }
-    }
-
-    onNameChange(event) {
-        this.setState({name: event.target.value})
-    }
-
-    onEmailChange(event) {
-        this.setState({email: event.target.value})
-    }
-
-    onSubjectChange(event) {
-        this.setState({subject: event.target.value})
-    }
-
-    onMsgChange(event) {
-        this.setState({message: event.target.value})
-    }
-
     return (
         <div className="subpage">
             <button onClick={() => {}} className="close" id="c-close">
