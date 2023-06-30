@@ -21,13 +21,13 @@ export default function Contact({setContact}) {
                     <button className='cont-form' id='cont-btn' type='submit'>Send</button>
                 </form>
                 <div className="cont-btns">
-                    <a href="" className="linkd">
-                        <img src={linkd} className="link-img" />
+                    <a href="https://www.linkedin.com/in/varoonenjeti/" target="_blank" className="linkd">
+                        <img src={linkd} className="linkd-img" />
                     </a>
-                    <a href="mailto:varoon.enjeti@gmail.com?subject=Let's Connect!" className="mail">
+                    <a href="mailto:varoon.enjeti@gmail.com?subject=Let's Connect!" target="_blank" className="mail">
                         <img src={mail} className="mail-img" />
                     </a>
-                    <a href="" className="git">
+                    <a href="https://github.com/varoon-enjeti" target="_blank" className="git">
                         <img src={git} className="git-img" />
                     </a>                    
                 </div>
