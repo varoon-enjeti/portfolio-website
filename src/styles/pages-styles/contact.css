@@ -73,7 +73,7 @@ textarea:focus, input:focus {
 
 @media screen and (max-width: 620px) {
     .contact-box {
-        width: 50vw;
+        width: 60vw;
         gap: 15px;
     }
 
