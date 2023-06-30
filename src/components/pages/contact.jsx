@@ -17,6 +17,9 @@ export default function Contact({setContact}) {
                     <textarea className='cont-form' id='cmessage' type="text" placeholder='Message' />
                     <button className='cont-form' id='cont-btn' type='submit'>Send</button>
                 </form>
+                <div className="cont-btns">
+                    <img src="" alt="" />
+                </div>
             </div>
         </div>
     );
