@@ -1,6 +1,9 @@
 import React from 'react'
 import { useState } from "react";
 import '../../styles/pages-styles/contact.css';
+import linkd from "../../resources/linkd.svg";
+import mail from "../../resources/mail.svg";
+import git from "../../resources/git.svg";
 
 export default function Contact({setContact}) {
     return (
@@ -18,7 +21,15 @@ export default function Contact({setContact}) {
                     <button className='cont-form' id='cont-btn' type='submit'>Send</button>
                 </form>
                 <div className="cont-btns">
-                    <img src="" alt="" />
+                    <a href="" className="linkd">
+                        <img src={linkd} className="link-img" />
+                    </a>
+                    <a href="mailto:varoon.enjeti@gmail.com?subject=Let's Connect!" className="mail">
+                        <img src={mail} className="mail-img" />
+                    </a>
+                    <a href="" className="git">
+                        <img src={git} className="git-img" />
+                    </a>                    
                 </div>
             </div>
         </div>
