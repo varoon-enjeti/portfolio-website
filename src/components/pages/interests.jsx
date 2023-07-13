@@ -8,7 +8,7 @@ export default function Interests({setInterests}) {
                 <div className="x"></div>
                 <div className="x" id="right"></div>
             </button>
-            <div className="title" id="i-title">Interests</div>
+            <div className="title" id="i-title">Skills</div>
         </div>
     );
 }
