@@ -8,7 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {},
+      colors: {
+        'red': '#EB5353',
+        'yellow': '#F9D923',
+        'green': '#36AE7C',
+        'blue': '#187498',
+      },
     },
   },
   plugins: [],
