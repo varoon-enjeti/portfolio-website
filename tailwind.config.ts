@@ -7,12 +7,17 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      'sans': ['Helvetica']
+    },
     extend: {
       colors: {
         'red': '#EB5353',
         'yellow': '#F9D923',
         'green': '#36AE7C',
         'blue': '#187498',
+        'darkgrey': '#2C2C2C',
+        'lightgrey': '#B3B3B3',
       },
     },
   },

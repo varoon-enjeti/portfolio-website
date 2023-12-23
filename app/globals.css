@@ -10,8 +10,15 @@
     background-size: 0.53em 0.53em;
 }
 
-.red {
-    background: #EB5353;
+body {
+    overflow: hidden;
+}
+
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
 }
 
 .no-radius {
