@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* GRID BACKGROUND */
+
 .main-background {
     background: #B3B3B3;
     background-image:
@@ -9,6 +11,8 @@
         linear-gradient(90deg, #00000010 2px, transparent 2px);
     background-size: 0.53em 0.53em;
 }
+
+/* REMOVE STANDARD STYLES */
 
 body {
     overflow: hidden;
@@ -20,6 +24,136 @@ button {
     padding: 0;
     margin: 0;
 }
+
+/* FADING ANIMATIONS */
+
+@keyframes fadeIn {
+    from {
+        margin-left: -10%;
+        opacity: 30%;
+    }
+
+    to {
+        margin-left: 0;
+        opacity: 100%;
+    }
+}
+
+@keyframes fadeInMobile {
+    from {
+        margin-left: -10%;
+        opacity: 30%;
+    }
+
+    to {
+        margin-left: 0;
+        opacity: 100%;
+    }
+}
+
+/* SLIDING ANIMATIONS */
+
+@keyframes slideInFromTop {
+    from {
+        margin-top: -10%;
+        opacity: 30%;
+    }
+
+    to {
+        margin-top: 0%;
+        opacity: 100%;
+    }
+}
+
+@keyframes slideInFromBot {
+    from {
+        margin-top: 10%;
+        opacity: 30%;
+    }
+
+    to {
+        margin-top: 0%;
+        opacity: 100%;
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        margin-left: -10%;
+        opacity: 30%;
+    }
+
+    to {
+        margin-left: 0%;
+        opacity: 100%;
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        margin-left: 10%;
+        opacity: 30%;
+    }
+
+    to {
+        margin-left: 0%;
+        opacity: 100%;
+    }
+}
+
+@keyframes slideInFromTopRight {
+    from {
+        margin-top: -10%;
+        margin-left: 10%;
+        opacity: 30%;
+    }
+
+    to {
+        margin-top: 0%;
+        margin-left: 0%;
+        opacity: 100%;
+    }
+}
+
+@keyframes slideInFromBotRight {
+    from {
+        margin-top: 10%;
+        margin-left: 10%;
+        opacity: 30%;
+    }
+
+    to {
+        margin-top: 0%;
+        margin-left: 0%;
+        opacity: 100%;
+    }
+}
+
+/* HOVERS & TRANSITIONS */
+
+.header {
+    animation: 0.75s ease-out fadeIn;
+}
+
+.name {
+    transition: transform .25s, visibility .25s ease-in, text-shadow .2s;
+}
+
+.name:hover {
+    transform: scale(1.05);
+    text-shadow: 0 0 11px rgba(0, 0, 0, 0.3);
+}
+
+.pfp{
+    transition: transform .25s, visibility .25s ease-in, box-shadow .25s;
+}
+
+.pfp:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+/* BORDER RADIUS CLASSES */
 
 .no-radius {
     border-radius: 0px 0px 0px 0px;

@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function Header() {
     return (
-        <div className="w-full absolute flex flex-col items-start pl-[7px] gap-[11px]">
-            <button className="font-sans font-bold text-[100px] tracking-[-0.04em] text-darkgrey h-[93px] relative">Varoon Enjeti</button>
+        <div className="w-full absolute flex flex-col items-start pl-[7px] gap-[11px] header">
+            <button className="font-sans font-bold text-[100px] tracking-[-0.04em] text-darkgrey h-[93px] relative name">Varoon Enjeti</button>
             <div className="flex gap-5">
                 <a href="/" className="">
                     <Image
@@ -11,7 +11,7 @@ export default function Header() {
                         alt='Profile Picture'
                         width={500}
                         height={500}
-                        className='w-[98px] h-[98px] rounded-[30px] border-darkgrey border-[3px]'
+                        className='w-[98px] h-[98px] rounded-[30px] border-darkgrey border-[3px] pfp'
                     />
                 </a>
                 <div className="flex flex-col justify-center gap-3">
