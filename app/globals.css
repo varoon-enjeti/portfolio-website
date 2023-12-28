@@ -169,6 +169,14 @@ button {
     animation: 0.75s ease-out slideInFromBot;
 }
 
+.sitr {
+    animation: 0.75s ease-out slideInFromTopRight;
+}
+
+.sibr {
+    animation: 0.75s ease-out slideInFromBotRight;
+}
+
 
 /* BORDER RADIUS CLASSES */
 
