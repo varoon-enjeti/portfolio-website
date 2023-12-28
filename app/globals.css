@@ -153,6 +153,23 @@ button {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
 
+.sil {
+    animation: 0.75s ease-out slideInFromLeft;
+}
+
+.sir {
+    animation: 0.75s ease-out slideInFromRight;
+}
+
+.sit {
+    animation: 0.75s ease-out slideInFromTop;
+}
+
+.sib {
+    animation: 0.75s ease-out slideInFromBot;
+}
+
+
 /* BORDER RADIUS CLASSES */
 
 .no-radius {
