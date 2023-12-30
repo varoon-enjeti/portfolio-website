@@ -6,6 +6,9 @@ import Yellowline from "./lines/yellowline";
 import Greenline from "./lines/greenline";
 import Blueline from "./lines/blueline";
 import Projects from './subpages/projects';
+import About from './subpages/about';
+import Skills from './subpages/skills';
+import Contact from './subpages/contact';
 
 export default function Body() {
 
@@ -82,9 +85,9 @@ export default function Body() {
             </div>
             <div className="">
                 {projectLive ? (<Projects setProject={setProject}/>) : (null)}
-                {/* {aboutLive ? (<About setAbout={setAbout}/>) : (null)}
+                {aboutLive ? (<About setAbout={setAbout}/>) : (null)}
                 {skillsLive ? (<Skills setSkills={setSkills}/>) : (null)}
-                {contactLive ? (<Contact setContact={setContact}/>) : (null)} */}
+                {contactLive ? (<Contact setContact={setContact}/>) : (null)}
             </div>
         </div>
     );
