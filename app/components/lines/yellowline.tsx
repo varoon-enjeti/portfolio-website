@@ -1,9 +1,12 @@
-export default function Yelloline() {
+import React from "react";
+import { yellowProps, SetStateType } from '../types';
+
+const Yellowline: React.FC<yellowProps> = ({ setAbout }) => {
     return (
         <div className="relative">
             <div className="bg-yellow h-6 w-[calc(100%-50px-580px)] absolute top-[369px] left-[282px] tl-tr-br-bl sib"></div>
             <div className="bg-yellow h-32 w-6 absolute top-[265px] left-[282px] tl-tr-br-bl sitl">
-                <button onClick={() => {}} type="button" className="open-btn">
+                <button onClick={() => {setAbout(true)}} type="button" className="open-btn">
                     <p className="selection-txt">About</p>
                 </button>
             </div>
@@ -11,3 +14,5 @@ export default function Yelloline() {
         </div>
     );
 }
+
+export default Yellowline;

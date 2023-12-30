@@ -8,6 +8,12 @@ import Blueline from "./lines/blueline";
 
 export default function Body() {
 
+    // Subpage States
+    const [projectLive, setProject] = useState(false);
+    const [aboutLive, setAbout] = useState(false);
+    const [skillsLive, setSkills] = useState(false);
+    const [contactLive, setContact] = useState(false);
+
     // Width x Height
     const [width, setWidth] = useState(window.innerWidth);
     const [height, setHeight] = useState(window.innerHeight);
@@ -53,13 +59,22 @@ export default function Body() {
 
     return (
         <div className=" w-[calc(100%-50px)] h-[calc(100%-50px)]">
-            <Header />
-            <Yellowline />
-            <Redline />
-            <Greenline />
-            <Blueline />
+            <Header 
+                projectLive={projectLive}
+                setProject={setProject}
+                aboutLive={aboutLive}
+                setAbout={setAbout}
+                skillsLive={skillsLive}
+                setSkills={setSkills}
+                contactLive={contactLive}
+                setContact={setContact}
+            />
+                <Yellowline setAbout={setAbout}/>
+                <Redline setProject={setProject}/>
+                <Greenline setSkills={setSkills}/>
+                <Blueline setContact={setContact}/>
             <div className="flex h-full w-full justify-between items-end">
-                <div className="font-sans font-light text-[22px] tracking-[-0.04em] text-darkgrey data">{width} x {height}</div>
+                <div className="font-sans font-light text-[22px] tracking-[-0.04em] text-darkgrey pl-[7px] data">{width} x {height}</div>
                 <div className="font-sans font-light text-[22px] tracking-[-0.04em] text-darkgrey data">{formatTime(time)}</div>
             </div>
         </div>

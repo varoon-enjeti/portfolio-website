@@ -1,4 +1,7 @@
-export default function Blueline() {
+import React from "react";
+import { blueProps, SetStateType } from '../types';
+
+const Blueline: React.FC<blueProps> = ({ setContact }) => {
     return (
         <div className="relative">
             <div className="bg-blue w-[calc(100%-50px-840px)] h-6 absolute top-[417px] left-[473px] tl-tr-br-bl sib"></div>
@@ -7,10 +10,12 @@ export default function Blueline() {
             <div className="bg-blue h-[112px] w-6 absolute top-[417px] left-[calc(100%-50px-840px+449px)] tl-tr-br-bl sir"></div>
             <div className="bg-blue h-6 w-[153px] absolute top-[505px] left-[calc(100%-50px-840px+449px)] tl-tr-br-bl sib"></div>
             <div className="bg-blue h-6 w-[180px] absolute top-[561px] left-[calc(100%-50px-840px+449px+107px)] tl-tr-br-bl rotate-45 sibr">
-                <button onClick={() => {}} type="button" className="open-btn" id="selection-contact">
+                <button onClick={() => {setContact(true)}} type="button" className="open-btn" id="selection-contact">
                     <p className="selection-txt">Contact</p>
                 </button>
             </div>
         </div>
     )
 }
+
+export default Blueline;

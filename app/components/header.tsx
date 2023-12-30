@@ -1,9 +1,23 @@
 import Image from 'next/image'
+import { headerProps, SetStateType } from './types';
 
-export default function Header() {
+const Header: React.FC<headerProps> = ({projectLive, setProject, aboutLive, setAbout, skillsLive, setSkills, contactLive, setContact}) => {
+
+    function handleClick() {
+        if (projectLive) {
+            setProject(false)
+        } else if (aboutLive) {
+            setAbout(false)
+        } else if (skillsLive) {
+            setSkills(false)
+        } else if (contactLive) {
+            setContact(false)
+        }
+    }
+
     return (
         <div className="w-full absolute flex flex-col items-start pl-[7px] gap-[11px] header">
-            <button className="font-sans font-bold text-[100px] tracking-[-0.04em] text-darkgrey h-[93px] relative name">Varoon Enjeti</button>
+            <button onClick={() => {handleClick()}} className="font-sans font-bold text-[100px] tracking-[-0.04em] text-darkgrey h-[93px] relative name">Varoon Enjeti</button>
             <div className="flex gap-5">
                 <a href="/" className="">
                     <Image
@@ -22,3 +36,5 @@ export default function Header() {
         </div>
     );
 }
+
+export default Header;
