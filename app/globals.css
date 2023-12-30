@@ -278,3 +278,23 @@ button {
 .tl-tr-br-bl {
     border-radius: 30px 30px 30px 30px;
 }
+
+/* OPEN BUTTONS */
+
+.open-btn {
+    position: relative;
+    top: -8px;
+    left: 2px;
+    width: 20px;
+    height: 20px;
+    background: #2C2C2C;
+    border: 2px solid #B3B3B3;
+    border-radius: 50%;
+    transition: transform .25s, visibility 1s ease-in;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.open-btn:hover {
+    transform: scale(1.15);
+}
