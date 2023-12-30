@@ -29,7 +29,7 @@ button {
 
 @keyframes fadeIn {
     from {
-        margin-left: -10%;
+        margin-left: -20%;
         opacity: 30%;
     }
 
@@ -160,7 +160,7 @@ button {
 /* HOVERS & TRANSITIONS */
 
 .header {
-    animation: 0.75s ease-out fadeIn;
+    animation: 1s ease-out fadeIn;
 }
 
 .name {
@@ -182,35 +182,35 @@ button {
 }
 
 .sil {
-    animation: 0.75s ease-out slideInFromLeft;
+    animation: 1s ease-out slideInFromLeft;
 }
 
 .sir {
-    animation: 0.75s ease-out slideInFromRight;
+    animation: 1s ease-out slideInFromRight;
 }
 
 .sit {
-    animation: 0.75s ease-out slideInFromTop;
+    animation: 1s ease-out slideInFromTop;
 }
 
 .sib {
-    animation: 0.75s ease-out slideInFromBot;
+    animation: 1s ease-out slideInFromBot;
 }
 
 .sitr {
-    animation: 0.75s ease-out slideInFromTopRight;
+    animation: 1s ease-out slideInFromTopRight;
 }
 
 .sitl {
-    animation: 0.75s ease-out slideInFromTopLeft;
+    animation: 1s ease-out slideInFromTopLeft;
 }
 
 .sibr {
-    animation: 0.75s ease-out slideInFromBotRight;
+    animation: 1s ease-out slideInFromBotRight;
 }
 
 .sibl {
-    animation: 0.75s ease-out slideInFromBotLeft;
+    animation: 1s ease-out slideInFromBotLeft;
 }
 
 /* BORDER RADIUS CLASSES */
