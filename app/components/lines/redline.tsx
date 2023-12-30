@@ -1,6 +1,5 @@
 import React from "react";
 import { redProps, SetStateType } from '../types';
-import Projects from "../subpages/projects";
 
 const Redline: React.FC<redProps> = ({ setProject }) => {
     return (

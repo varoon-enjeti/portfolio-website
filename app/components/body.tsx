@@ -5,6 +5,7 @@ import Redline from "./lines/redline";
 import Yellowline from "./lines/yellowline";
 import Greenline from "./lines/greenline";
 import Blueline from "./lines/blueline";
+import Projects from './subpages/projects';
 
 export default function Body() {
 
@@ -58,7 +59,7 @@ export default function Body() {
     };
 
     return (
-        <div className=" w-[calc(100%-50px)] h-[calc(100%-50px)]">
+        <div className="w-[calc(100%-50px)] h-[calc(100%-50px)]">
             <Header 
                 projectLive={projectLive}
                 setProject={setProject}
@@ -69,13 +70,21 @@ export default function Body() {
                 contactLive={contactLive}
                 setContact={setContact}
             />
+            <div className="">
                 <Yellowline setAbout={setAbout}/>
                 <Redline setProject={setProject}/>
                 <Greenline setSkills={setSkills}/>
                 <Blueline setContact={setContact}/>
+            </div>
             <div className="flex h-full w-full justify-between items-end">
                 <div className="font-sans font-light text-[22px] tracking-[-0.04em] text-darkgrey pl-[7px] data">{width} x {height}</div>
                 <div className="font-sans font-light text-[22px] tracking-[-0.04em] text-darkgrey data">{formatTime(time)}</div>
+            </div>
+            <div className="">
+                {projectLive ? (<Projects setProject={setProject}/>) : (null)}
+                {/* {aboutLive ? (<About setAbout={setAbout}/>) : (null)}
+                {skillsLive ? (<Skills setSkills={setSkills}/>) : (null)}
+                {contactLive ? (<Contact setContact={setContact}/>) : (null)} */}
             </div>
         </div>
     );
