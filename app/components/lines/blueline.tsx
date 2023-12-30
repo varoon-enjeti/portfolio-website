@@ -8,7 +8,5 @@ export default function Blueline() {
             <div className="bg-blue h-6 w-[153px] absolute top-[505px] left-[calc(100%-50px-840px+449px)] tl-tr-br-bl sib"></div>
             <div className="bg-blue h-6 w-[180px] absolute top-[561px] left-[calc(100%-50px-840px+449px+107px)] tl-tr-br-bl rotate-45 sibr"></div>
         </div>
-        // 200px
-        // calc(100%-50px-950px)
     )
 }
