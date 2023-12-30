@@ -59,8 +59,8 @@ export default function Body() {
             <Greenline />
             <Blueline />
             <div className="flex h-full w-full justify-between items-end">
-                <div className="font-sans font-light text-[22px] tracking-[-0.04em] text-darkgrey">{width} x {height}</div>
-                <div className="font-sans font-light text-[22px] tracking-[-0.04em] text-darkgrey">{formatTime(time)}</div>
+                <div className="font-sans font-light text-[22px] tracking-[-0.04em] text-darkgrey data">{width} x {height}</div>
+                <div className="font-sans font-light text-[22px] tracking-[-0.04em] text-darkgrey data">{formatTime(time)}</div>
             </div>
         </div>
     );

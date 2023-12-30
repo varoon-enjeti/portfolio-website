@@ -29,6 +29,16 @@ button {
 
 @keyframes fadeIn {
     from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity: 100%;
+    }
+}
+
+@keyframes fadeLeftIn {
+    from {
         margin-left: -20%;
         opacity: 30%;
     }
@@ -39,7 +49,7 @@ button {
     }
 }
 
-@keyframes fadeInMobile {
+@keyframes fadeLeftInMobile {
     from {
         margin-left: -10%;
         opacity: 30%;
@@ -160,7 +170,7 @@ button {
 /* HOVERS & TRANSITIONS */
 
 .header {
-    animation: 1s ease-out fadeIn;
+    animation: 1s ease-out fadeLeftIn;
 }
 
 .name {
@@ -179,6 +189,10 @@ button {
 .pfp:hover {
     transform: scale(1.1);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+.data {
+    animation: 1s ease-out fadeIn;
 }
 
 .sil {
