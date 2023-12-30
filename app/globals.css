@@ -115,10 +115,38 @@ button {
     }
 }
 
+@keyframes slideInFromTopLeft {
+    from {
+        margin-top: -10%;
+        margin-left: -10%;
+        opacity: 30%;
+    }
+
+    to {
+        margin-top: 0%;
+        margin-left: 0%;
+        opacity: 100%;
+    }
+}
+
 @keyframes slideInFromBotRight {
     from {
         margin-top: 10%;
         margin-left: 10%;
+        opacity: 30%;
+    }
+
+    to {
+        margin-top: 0%;
+        margin-left: 0%;
+        opacity: 100%;
+    }
+}
+
+@keyframes slideInFromBotLeft {
+    from {
+        margin-top: 10%;
+        margin-left: -10%;
         opacity: 30%;
     }
 
@@ -173,10 +201,17 @@ button {
     animation: 0.75s ease-out slideInFromTopRight;
 }
 
+.sitl {
+    animation: 0.75s ease-out slideInFromTopLeft;
+}
+
 .sibr {
     animation: 0.75s ease-out slideInFromBotRight;
 }
 
+.sibl {
+    animation: 0.75s ease-out slideInFromBotLeft;
+}
 
 /* BORDER RADIUS CLASSES */
 

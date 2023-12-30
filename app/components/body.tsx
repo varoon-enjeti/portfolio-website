@@ -2,6 +2,7 @@ import Header from "./header";
 import Redline from "./lines/redline";
 import Yellowline from "./lines/yellowline";
 import Greenline from "./lines/greenline";
+import Blueline from "./lines/blueline";
 
 export default function Body() {
     return (
@@ -10,6 +11,7 @@ export default function Body() {
             <Yellowline />
             <Redline />
             <Greenline />
+            <Blueline />
         </div>
     );
 }
