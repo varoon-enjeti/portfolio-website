@@ -1,5 +1,5 @@
 'use client'
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Header from "./header";
 import Redline from "./lines/redline";
 import Yellowline from "./lines/yellowline";
@@ -9,8 +9,10 @@ import Projects from './subpages/projects';
 import About from './subpages/about';
 import Skills from './subpages/skills';
 import Contact from './subpages/contact';
+import { CSSTransition } from 'react-transition-group';
 
 export default function Body() {
+    const nodeRef = useRef(null);
 
     // Subpage States
     const [projectLive, setProject] = useState(false);
@@ -84,10 +86,18 @@ export default function Body() {
                 <div className="font-sans font-light text-[22px] tracking-[-0.04em] text-darkgrey data">{formatTime(time)}</div>
             </div>
             <div className="">
-                {projectLive ? (<Projects setProject={setProject}/>) : (null)}
-                {aboutLive ? (<About setAbout={setAbout}/>) : (null)}
-                {skillsLive ? (<Skills setSkills={setSkills}/>) : (null)}
-                {contactLive ? (<Contact setContact={setContact}/>) : (null)}
+                <CSSTransition in={projectLive} timeout={800} classNames="transition" unmountOnExit onEnter={() => setProject(true)} onExited={() => setProject(false)}>
+                    <Projects setProject={setProject}/>
+                </CSSTransition>
+                <CSSTransition in={aboutLive} timeout={800} classNames="transition" unmountOnExit onEnter={() => setAbout(true)} onExited={() => setAbout(false)}>
+                    <About setAbout={setAbout}/>
+                </CSSTransition>
+                <CSSTransition in={skillsLive} timeout={800} classNames="transition" unmountOnExit onEnter={() => setSkills(true)} onExited={() => setSkills(false)}>
+                    <Skills setSkills={setSkills}/>
+                </CSSTransition>
+                <CSSTransition in={contactLive} timeout={800} classNames="transition" unmountOnExit onEnter={() => setContact(true)} onExited={() => setContact(false)}>
+                    <Contact setContact={setContact}/>
+                </CSSTransition>
             </div>
         </div>
     );
