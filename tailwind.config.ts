@@ -19,6 +19,9 @@ const config: Config = {
         'darkgrey': '#2C2C2C',
         'lightgrey': '#B3B3B3',
       },
+      screens: {
+        'nb': { 'raw': '(min-height: 771px)' },
+      }
     },
   },
   plugins: [],

@@ -328,7 +328,7 @@ button {
 
 .open-btn {
     position: relative;
-    top: 2px;
+    /* top: 2px; */
     left: 2px;
     width: 20px;
     height: 20px;
@@ -356,11 +356,16 @@ button {
     top: -9px;
 }
 
-#selection-skills {
+.selection-skills {
     top: 306px;
+}
+
+.sb-selection-skills {
+    top: 198px;
 }
 
 #selection-contact {
     rotate: -45deg;
     left: 158px;
+    top: 2px;
 }
