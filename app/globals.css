@@ -19,7 +19,6 @@ body {
 }
 
 button {
-    border: none;
     background: none;
     padding: 0;
     margin: 0;
@@ -327,17 +326,8 @@ button {
 /* OPEN BUTTONS */
 
 .open-btn {
-    position: relative;
-    /* top: 2px; */
-    left: 2px;
-    width: 20px;
-    height: 20px;
-    background: #2C2C2C;
-    border: 2px solid #B3B3B3;
-    border-radius: 50%;
+    /* border: 2px solid #B3B3B3; */
     transition: transform .25s, visibility 1s ease-in;
-    padding-top: 0;
-    padding-bottom: 0;
 }
 
 .open-btn:hover {

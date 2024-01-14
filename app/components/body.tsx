@@ -76,14 +76,14 @@ export default function Body() {
                 setContact={setContact}
             />
             <div className="2xl:w-full 2xl:h-[60%] 2xl:absolute 2xl:top-1/3 2xl:left-1/2 2xl:transform 2xl:-translate-x-1/2 2xl:-translate-y-1/3">
-                <Yellowline setAbout={setAbout}/>
+                {/* <Yellowline setAbout={setAbout}/> */}
                 <Redline setProject={setProject}/>
-                <Greenline setSkills={setSkills}/>
-                <Blueline setContact={setContact}/>
+                {/* <Greenline setSkills={setSkills}/>
+                <Blueline setContact={setContact}/> */}
             </div>
             <div className="flex h-full w-full justify-between items-end">
-                <div className="font-sans font-light text-[22px] tracking-[-0.04em] text-darkgrey pl-[7px] data">{width} x {height}</div>
-                <div className="font-sans font-light text-[22px] tracking-[-0.04em] text-darkgrey data">{formatTime(time)}</div>
+                <div className="font-sans font-light text-[14px] md:text-[22px] tracking-[-0.04em] text-darkgrey pl-[7px] data">{width} x {height}</div>
+                <div className="font-sans font-light text-[14px] md:text-[22px] tracking-[-0.04em] text-darkgrey data">{formatTime(time)}</div>
             </div>
             <div className="">
                 <CSSTransition in={projectLive} timeout={800} classNames="transition" unmountOnExit onEnter={() => setProject(true)} onExited={() => setProject(false)}>
