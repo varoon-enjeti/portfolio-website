@@ -55,7 +55,7 @@ export default function Body() {
         const ampm = hours >= 12 ? 'PM' : 'AM';
 
         hours = hours % 12;
-        hours = hours ? hours : 12; // the hour '0' should be '12'
+        hours = hours ? hours : 12;
         const strHours = hours < 10 ? `0${hours}` : `${hours}`;
         const strMinutes = minutes < 10 ? `0${minutes}` : `${minutes}`;
         const strSeconds = seconds < 10 ? `0${seconds}` : `${seconds}`;
