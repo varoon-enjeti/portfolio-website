@@ -64,7 +64,7 @@ export default function Body() {
     };
 
     return (
-        <div className="w-[calc(100%-50px)] h-[calc(100%-50px)]">
+        <div className="w-[calc(100%-40px)] h-[calc(100%-40px)] lg:w-[calc(100%-50px)] lg:h-[calc(100%-50px)]">
             <Header 
                 projectLive={projectLive}
                 setProject={setProject}
