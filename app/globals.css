@@ -326,7 +326,6 @@ button {
 /* OPEN BUTTONS */
 
 .open-btn {
-    /* border: 2px solid #B3B3B3; */
     transition: transform .25s, visibility 1s ease-in;
 }
 
@@ -356,6 +355,6 @@ button {
 
 #selection-contact {
     rotate: -45deg;
-    left: 118px;
-    top: 2px;
+    /* left: 118px;
+    top: 2px; */
 }

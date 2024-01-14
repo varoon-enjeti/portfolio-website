@@ -79,7 +79,7 @@ export default function Body() {
                 <Yellowline setAbout={setAbout}/>
                 <Redline setProject={setProject}/>
                 <Greenline setSkills={setSkills}/>
-                {/* <Blueline setContact={setContact}/> */}
+                <Blueline setContact={setContact}/>
             </div>
             <div className="flex h-full w-full justify-between items-end">
                 <div className="font-sans font-light text-[14px] md:text-[22px] tracking-[-0.04em] text-darkgrey pl-[7px] data">{width} x {height}</div>
