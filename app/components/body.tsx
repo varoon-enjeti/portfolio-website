@@ -21,19 +21,21 @@ export default function Body() {
     const [contactLive, setContact] = useState(false);
 
     // Width x Height
-    const [width, setWidth] = useState(window.innerWidth);
-    const [height, setHeight] = useState(window.innerHeight);
+    if(typeof window !== 'undefined') {
+        const [width, setWidth] = useState(window.innerWidth);
+        const [height, setHeight] = useState(window.innerHeight);
 
-    useEffect(() => {
-        const handleResize = () => {
-            setWidth(window.innerWidth);
-            setHeight(window.innerHeight);
-        };
+        useEffect(() => {
+            const handleResize = () => {
+                setWidth(window.innerWidth);
+                setHeight(window.innerHeight);
+            };
 
-        window.addEventListener('resize', handleResize);
+            window.addEventListener('resize', handleResize);
 
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
+            return () => window.removeEventListener('resize', handleResize);
+        }, []);
+    }
 
     // Time : HH:MM:SS AM/PM
 
