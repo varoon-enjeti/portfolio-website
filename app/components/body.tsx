@@ -78,7 +78,7 @@ export default function Body() {
             <div className="2xl:w-full 2xl:h-[60%] 2xl:absolute 2xl:top-1/3 2xl:left-1/2 2xl:transform 2xl:-translate-x-1/2 2xl:-translate-y-1/3">
                 <Yellowline setAbout={setAbout}/>
                 <Redline setProject={setProject}/>
-                {/* <Greenline setSkills={setSkills}/> */}
+                <Greenline setSkills={setSkills}/>
                 {/* <Blueline setContact={setContact}/> */}
             </div>
             <div className="flex h-full w-full justify-between items-end">
