@@ -20,7 +20,7 @@ const config: Config = {
         'lightgrey': '#B3B3B3',
       },
       screens: {
-        'nb': { 'raw': '(min-height: 771px)' },
+        'nb': { 'raw': '(min-height: 771px) and (min-width: 768px)' },
       }
     },
   },
