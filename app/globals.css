@@ -333,28 +333,6 @@ button {
     transform: scale(1.15);
 }
 
-.selection-txt {
-    font-family: 'Helvetica';
-    font-style: normal;
-    letter-spacing: -0.04em;
-    color: #2C2C2C;
-    font-weight: 600;
-    font-size: 30px;
-    position: relative;
-    left: 23px;
-    top: -9px;
-}
-
-.selection-skills {
-    top: 306px;
-}
-
-.sb-selection-skills {
-    top: 198px;
-}
-
 #selection-contact {
     rotate: -45deg;
-    /* left: 118px;
-    top: 2px; */
 }
