@@ -17,5 +17,5 @@ const Blueline: React.FC<blueProps> = ({ setContact }) => {
         </div>
     )
 }
-//
+
 export default Blueline;
