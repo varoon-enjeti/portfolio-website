@@ -21,6 +21,8 @@ const config: Config = {
       },
       screens: {
         'nb': { 'raw': '(min-height: 771px) and (min-width: 768px)' },
+        'alg': '1058px',
+        '3xl': '1792px'
       }
     },
   },

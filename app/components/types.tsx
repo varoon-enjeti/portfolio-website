@@ -28,3 +28,10 @@ export interface headerProps {
     contactLive: boolean;
     setContact: SetStateType;
 }
+
+export interface expcardProps {
+    role: string;
+    company: string;
+    date: string;
+    twcss: string;
+}
