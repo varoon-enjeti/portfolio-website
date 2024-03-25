@@ -106,7 +106,7 @@ const About: React.FC<yellowProps> = ({ setAbout }) => {
             )
             :
             (
-                <div>Mobile About View</div>
+                <div className="absolute w-full h-[calc(100%-50px)] top-[50px] flex justify-center items-center text-darkgrey">About - Mobile View</div>
             )
             }
         </div>
