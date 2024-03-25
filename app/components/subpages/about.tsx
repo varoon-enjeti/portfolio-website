@@ -39,11 +39,11 @@ const About: React.FC<yellowProps> = ({ setAbout }) => {
                                         height={500}
                                         className='h-[100px] w-[100px] 3xl:h-[125px] 3xl:w-[125px] rounded-[15px] border-darkgrey border-[3px] exp'
                                     />
-                                    <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 3xl:mr-2 text-wrap">Hi, I'm Varoon. Welcome to my website! I'm an avid coder, sailor, runner, and airplane enthusiast. As of lately, I've spent my freetime studying Korean, playing bass guitar, or</div>
+                                    <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 3xl:mr-2 text-wrap">{`Hi, I'm Varoon. Welcome to my website! I'm an avid coder, sailor, runner, and airplane enthusiast. As of lately, I've spent my freetime studying Korean, playing bass guitar, or`}</div>
                                 </div>
-                                <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 mt-1 text-wrap">watching March Madness. I am also absolutely fascinated with transit maps, so I used it as inspiration to design this website. Coding is my form of creative expression, and it</div>
+                                <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 mt-1 text-wrap">{`watching March Madness. I am also absolutely fascinated with transit maps, so I used it as inspiration to design this website. Coding is my form of creative expression, and it`}</div>
                                 <div className="w-full h-[100px] 3xl:h-[125px] flex">
-                                    <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] mx-2 text-wrap">allows me to bring my ideas to life! My coding journey began freshman year of college, evolving into a passion. I hope you learned a bit more about me- thanks for stopping by!</div>
+                                    <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] mx-2 text-wrap">{`allows me to bring my ideas to life! My coding journey began freshman year of college, evolving into a passion. I hope you learned a bit more about me- thanks for stopping by!`}</div>
                                     <Image
                                         src="/sail.jpg"
                                         alt='Profile Picture'
