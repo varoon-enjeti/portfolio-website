@@ -39,11 +39,18 @@ const About: React.FC<yellowProps> = ({ setAbout }) => {
                                         height={500}
                                         className='h-[100px] w-[100px] 3xl:h-[125px] 3xl:w-[125px] rounded-[15px] border-darkgrey border-[3px] exp'
                                     />
-                                    <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 3xl:mr-2 text-wrap">{`Hi, I'm Varoon. Welcome to my website! I'm an avid coder, sailor, runner, and airplane enthusiast. As of lately, I've spent my freetime studying Korean, playing bass guitar, or`}</div>
+                                    <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 3xl:mr-2 text-wrap">{`Hi, I'm Varoon. Thanks for stopping by- as of recently, I have developed an interest in IoT, Networks, and autonomous systems. At Northwestern, I have focused my CS courses`}</div>
                                 </div>
-                                <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 mt-1 text-wrap">{`watching March Madness. I am also absolutely fascinated with transit maps, so I used it as inspiration to design this website. Coding is my form of creative expression, and it`}</div>
+                                <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 mt-1 text-wrap">{`in systems topics, uncovering where software meets hardware. I'm hoping to create code that can interact with our physical world. I am also absolutely fascinated with transit`}</div>                                
                                 <div className="w-full h-[100px] 3xl:h-[125px] flex">
-                                    <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] mx-2 text-wrap">{`allows me to bring my ideas to life! My coding journey began freshman year of college, evolving into a passion. I hope you learned a bit more about me- thanks for stopping by!`}</div>
+                                    <div className="flex flex-col">
+                                        <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] mx-2 text-wrap">
+                                            {`maps, so I used it as inspiration to design this website! Outside of CS, I am an avid `}
+                                            <a href="https://www.strava.com/athletes/117919395" target="_blank" className="inline-block font-sans font-normal text-orange-500 tracking-[-0.04em] text-[20px] 3xl:text-[25px] text-wrap runner">runner</a>
+                                            <a className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px]">,</a>
+                                        </div>
+                                        <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] mx-2 text-wrap">{`sailor, and airplane enthusiast. Also, I'm from Kansas; it's pretty quiet there, which is nice.`}</div>
+                                    </div>
                                     <Image
                                         src="/sail.jpg"
                                         alt='Profile Picture'

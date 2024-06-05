@@ -241,6 +241,14 @@ button {
     transform: scale(1.04);
 }
 
+.runner {
+    transition: transform .20s, visibility .20s ease-in, text-shadow .2s;
+}
+
+.runner:hover {
+    transform: scale(1.05);
+}
+
 /* LINE TRANSITIONS */
 
 .data {
