@@ -65,6 +65,12 @@ export default function Body() {
 
     return (
         <div className="w-[calc(100%-40px)] h-[calc(100%-40px)] md:w-[calc(100%-50px)] md:h-[calc(100%-50px)]">
+            <div className="2xl:w-full 2xl:h-[60%] 2xl:absolute 2xl:top-1/3 2xl:left-1/2 2xl:transform 2xl:-translate-x-1/2 2xl:-translate-y-1/3">
+                <Yellowline setAbout={setAbout}/>
+                <Redline setProject={setProject}/>
+                <Greenline setSkills={setSkills}/>
+                <Blueline setContact={setContact}/>
+            </div>
             <Header 
                 projectLive={projectLive}
                 setProject={setProject}
@@ -75,12 +81,6 @@ export default function Body() {
                 contactLive={contactLive}
                 setContact={setContact}
             />
-            <div className="2xl:w-full 2xl:h-[60%] 2xl:absolute 2xl:top-1/3 2xl:left-1/2 2xl:transform 2xl:-translate-x-1/2 2xl:-translate-y-1/3">
-                <Yellowline setAbout={setAbout}/>
-                <Redline setProject={setProject}/>
-                <Greenline setSkills={setSkills}/>
-                <Blueline setContact={setContact}/>
-            </div>
             <div className="flex h-full w-full justify-between items-end">
                 <div className="font-sans font-light text-[14px] md:text-[22px] tracking-[-0.04em] text-darkgrey pl-[7px] data">{width} x {height}</div>
                 <div className="font-sans font-light text-[14px] md:text-[22px] tracking-[-0.04em] text-darkgrey data">{formatTime(time)}</div>
