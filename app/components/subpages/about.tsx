@@ -39,17 +39,16 @@ const About: React.FC<yellowProps> = ({ setAbout }) => {
                                         height={500}
                                         className='h-[100px] w-[100px] 3xl:h-[125px] 3xl:w-[125px] rounded-[15px] border-darkgrey border-[3px] exp'
                                     />
-                                    <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 3xl:mr-2 text-wrap">{`Hi, I'm Varoon. Thanks for stopping by- as of recently, I have developed an interest in IoT, Networks, and autonomous systems. At Northwestern, I have focused my CS courses`}</div>
+                                    <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 3xl:mr-2 text-wrap">{`Hi, I'm Varoon. Thanks for stopping by- I'm a rising senior studying CS at Northwestern University with interests in IoT, Networks, and autonomous systems. My coursework focuses`}</div>
                                 </div>
-                                <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 mt-1 text-wrap">{`in systems topics, uncovering where software meets hardware. I'm hoping to create code that can interact with our physical world. I am also absolutely fascinated with transit`}</div>                                
+                                <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 mt-1 text-wrap">{`on topics where software meets hardware, and I'm hoping to create code that can interact with our physical world. I am also absolutely fascinated with transit maps, so I used them`}</div>                                
                                 <div className="w-full h-[100px] 3xl:h-[125px] flex">
                                     <div className="flex flex-col">
                                         <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] mx-2 text-wrap">
-                                            {`maps, so I used it as inspiration to design this website! Outside of CS, I am an avid `}
-                                            <a href="https://www.strava.com/athletes/117919395" target="_blank" className="inline-block font-sans font-normal text-orange-500 tracking-[-0.04em] text-[20px] 3xl:text-[25px] text-wrap runner">runner</a>
-                                            <a className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px]">,</a>
+                                            {`as inspiration to design this website! Outside of CS, I am an avid `}
+                                            <a href="https://www.strava.com/athletes/117919395" target="_blank" className="inline-block font-sans font-normal text-orange-500 tracking-[-0.04em] text-[20px] 3xl:text-[25px] text-wrap underline runner">runner</a>
+                                            <a className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px]">{`, sailor, and airplane enthusiast. Also, I'm originally from Kansas, but now I'm plagued with constantly moving.`}</a>
                                         </div>
-                                        <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] mx-2 text-wrap">{`sailor, and airplane enthusiast. Also, I'm from Kansas; it's pretty quiet there, which is nice.`}</div>
                                     </div>
                                     <Image
                                         src="/sail.jpg"
@@ -76,7 +75,7 @@ const About: React.FC<yellowProps> = ({ setAbout }) => {
                                             <Expcard
                                                 role='Software Engineer Intern'
                                                 company='Applied Materials'
-                                                date='Summer 2024' 
+                                                date='June 2024 - Present' 
                                                 twcss='ml-8 -mt-7 3xl:ml-[40px] 3xl:-mt-[36px]'
                                             />
                                         </div>
@@ -84,7 +83,7 @@ const About: React.FC<yellowProps> = ({ setAbout }) => {
                                             <Expcard
                                                 role='Teaching Assistant'
                                                 company='CS 348 : Artificial Intelligence'
-                                                date='Aug. 2023 - Present' 
+                                                date='Aug. 2023 - June 2024' 
                                                 twcss='-ml-[225px] -mt-7 3xl:-ml-[282px] 3xl:-mt-[36px]'
                                             />
                                         </div>

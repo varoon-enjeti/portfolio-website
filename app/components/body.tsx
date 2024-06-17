@@ -83,7 +83,7 @@ export default function Body() {
             />
             <div className="flex h-full w-full justify-between items-end">
                 <div className="font-sans font-light text-[14px] md:text-[22px] tracking-[-0.04em] text-darkgrey pl-[7px] data">{width} x {height}</div>
-                <div className="font-sans font-light text-[14px] md:text-[22px] tracking-[-0.04em] text-darkgrey data">{formatTime(time)}</div>
+                <div className="font-sans font-light text-[14px] md:text-[22px] tracking-[-0.04em] text-darkgrey mr-2 data">{formatTime(time)}</div>
             </div>
             <div className="">
                 <CSSTransition in={projectLive} timeout={800} classNames="transition" unmountOnExit onEnter={() => setProject(true)} onExited={() => setProject(false)}>
