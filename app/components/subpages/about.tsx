@@ -41,7 +41,7 @@ const About: React.FC<yellowProps> = ({ setAbout }) => {
                                     />
                                     <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 3xl:mr-2 text-wrap">{`Hi, I'm Varoon. Thanks for stopping by- I'm a rising senior studying CS at Northwestern University with interests in IoT, Networks, and autonomous systems. My coursework focuses`}</div>
                                 </div>
-                                <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 mt-1 text-wrap">{`on topics where software meets hardware, and I'm hoping to create code that can interact with our physical world. I am also absolutely fascinated with transit maps, so I used them`}</div>                                
+                                <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 mt-1 text-wrap">{`on the intersection of software and hardware, and I'm hoping to create code that can interact with our physical world. I am also absolutely fascinated with transit maps, so I used them`}</div>                                
                                 <div className="w-full h-[100px] 3xl:h-[125px] flex">
                                     <div className="flex flex-col">
                                         <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] mx-2 text-wrap">
