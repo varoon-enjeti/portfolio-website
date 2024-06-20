@@ -33,7 +33,7 @@ const About: React.FC<yellowProps> = ({ setAbout }) => {
                             <div className="w-[512px] 3xl:w-[640px] h-[309px] 3xl:h-[379px] border-4 bg-white border-darkgrey rounded-[15px] box flex flex-col">
                                 <div className="w-full h-[100px] 3xl:h-[125px] flex mx-2 mt-2">
                                     <Image
-                                        src="/headshot.jpg"
+                                        src="/newheadshot.jpg"
                                         alt='Profile Picture'
                                         width={500}
                                         height={500}
@@ -47,7 +47,7 @@ const About: React.FC<yellowProps> = ({ setAbout }) => {
                                         <div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] mx-2 text-wrap">
                                             {`as inspiration to design this website! Outside of CS, I am an avid `}
                                             <a href="https://www.strava.com/athletes/117919395" target="_blank" className="inline-block font-sans font-normal text-orange-500 tracking-[-0.04em] text-[20px] 3xl:text-[25px] text-wrap underline runner">runner</a>
-                                            <a className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px]">{`, sailor, and airplane enthusiast. Also, I'm originally from Kansas, but now I'm plagued with constantly moving.`}</a>
+                                            <a className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px]">{`, sailor, and airplane enthusiast. Also, I'm originally from Kansas, but I'm now plagued with constantly moving.`}</a>
                                         </div>
                                     </div>
                                     <Image
