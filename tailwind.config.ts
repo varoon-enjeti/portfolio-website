@@ -18,6 +18,7 @@ const config: Config = {
         'blue': '#187498',
         'darkgrey': '#2C2C2C',
         'lightgrey': '#B3B3B3',
+        'lightergrey': '#F1F1F1',
       },
       screens: {
         'nb': { 'raw': '(min-height: 771px) and (min-width: 768px)' },

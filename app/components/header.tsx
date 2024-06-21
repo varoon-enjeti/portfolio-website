@@ -17,7 +17,7 @@ const Header: React.FC<headerProps> = ({projectLive, setProject, aboutLive, setA
 
     return (
         <div className="w-1/2 absolute flex flex-col items-start md:pl-[7px] gap-0 md:gap-[11px] header">
-            <button onClick={() => {handleClick()}} className="font-sans font-bold h-[38px] md:h-[93px] text-[35px] md:text-[100px] tracking-[-0.04em] text-darkgrey relative z-20 name">Varoon Enjeti</button>
+            <button onClick={() => {handleClick()}} className="font-sans font-bold md:w-[600px] h-[38px] md:h-[93px] text-[35px] md:text-[100px] tracking-[-0.04em] text-darkgrey relative z-20 name">Varoon Enjeti</button>
             <div className="h-[48px] md:h-[98px] flex gap-3 md:gap-5">
                 <a href="/" className="">
                     <Image
