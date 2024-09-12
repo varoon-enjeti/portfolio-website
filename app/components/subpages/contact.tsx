@@ -100,6 +100,47 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 								Contact Me!
 							</button>
 						</form>
+						<div className="flex gap-5">
+							<a
+								href="https://www.linkedin.com/in/varoonenjeti/"
+								target="_blank"
+								className=""
+							>
+								<Image
+									src="/linkedin.png"
+									alt="Linkedin Logo"
+									width={500}
+									height={500}
+									className="h-[38px] w-[38px] exp"
+								/>
+							</a>
+							<a
+								href="mailto:varoon.enjeti@gmail.com?subject=Let's Connect!"
+								target="_blank"
+								className=""
+							>
+								<Image
+									src="/mail.png"
+									alt="Mail Logo"
+									width={500}
+									height={500}
+									className="h-[38px] w-[48px] exp"
+								/>
+							</a>
+							<a
+								href="https://github.com/varoon-enjeti"
+								target="_blank"
+								className=""
+							>
+								<Image
+									src="/ghlogo.png"
+									alt="GitHub Logo"
+									width={500}
+									height={500}
+									className="h-[38px] w-[38px] exp"
+								/>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
