@@ -27,9 +27,9 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 
 		console.log(formData);
 
-		const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
-		const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
-		const userID = process.env.NEXT_PUBLIC_EMAILJS_USER_ID;
+		const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ?? "";
+		const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ?? "";
+		const userID = process.env.NEXT_PUBLIC_EMAILJS_USER_ID ?? "";
 
 		emailjs.send(serviceID, templateID, formData, userID).then(
 			(result) => {
