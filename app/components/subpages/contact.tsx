@@ -27,12 +27,10 @@ const Contact: React.FC = ({ setContact }) => {
 
 		console.log(formData);
 
-		// EmailJS config
 		const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
 		const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
 		const userID = process.env.NEXT_PUBLIC_EMAILJS_USER_ID;
 
-		// Send email
 		emailjs.send(serviceID, templateID, formData, userID).then(
 			(result) => {
 				alert("Message successfully sent!");
@@ -43,7 +41,6 @@ const Contact: React.FC = ({ setContact }) => {
 			}
 		);
 
-		// Clear the form
 		setFormData({
 			name: "",
 			email: "",
