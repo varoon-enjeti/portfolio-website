@@ -5,13 +5,14 @@ import emailjs from "emailjs-com";
 import { blueProps, SetStateType } from "../types";
 
 const Contact: React.FC<blueProps> = ({ setContact }) => {
+	const [sent, setSent] = useState(0);
+
 	const [formData, setFormData] = useState({
 		name: "",
 		email: "",
 		message: "",
 	});
 
-	// Handle input change
 	const handleChange = (
 		e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
 	) => {
@@ -21,7 +22,6 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 		});
 	};
 
-	// Handle form submission
 	const handleSubmit = (e: React.FormEvent) => {
 		e.preventDefault();
 
@@ -33,11 +33,11 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 
 		emailjs.send(serviceID, templateID, formData, userID).then(
 			(result) => {
-				alert("Message successfully sent!");
+				setSent(1);
+				setFormData;
 			},
 			(error) => {
-				console.error(error.text);
-				alert("Failed to send the message, please try again.");
+				setSent(2);
 			}
 		);
 
@@ -64,84 +64,94 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 					<div className="font-sans text-blue font-bold track tracking-[-0.04em] text-[45px] 3xl:text-[56px] subptext mr-1 3xl:mt-1">
 						Contact
 					</div>
-					<div className="absolute w-full h-[calc(100%-50px)] top-[50px] flex flex-col gap-5 justify-center items-center text-darkgrey">
-						<form className="flex flex-col gap-5" onSubmit={handleSubmit}>
-							<input
-								className="w-[480px] h-[50px] rounded-[15px] border-[4px] border-darkgrey text-[1.25rem] font-light text-darkgrey px-[10px] bg-white"
-								type="text"
-								id="name"
-								placeholder="Name"
-								value={formData.name}
-								onChange={handleChange}
-								required
-							/>
-							<input
-								className="w-[480px] h-[50px] rounded-[15px] border-[4px] border-darkgrey text-[1.25rem] font-light text-darkgrey px-[10px] bg-white"
-								type="email"
-								id="email"
-								placeholder="Email"
-								value={formData.email}
-								onChange={handleChange}
-								required
-							/>
-							<textarea
-								className="w-[480px] h-[250px] rounded-[15px] border-[4px] border-darkgrey text-[1.25rem] font-light text-darkgrey px-[10px] bg-white"
-								id="message"
-								placeholder="Message"
-								value={formData.message}
-								onChange={handleChange}
-								required
-							/>
-							<button
-								className="w-[480px] h-[50px] rounded-[15px] border-[4px] border-darkgrey text-[1.25rem] font-medium text-white px-[10px] bg-blue exp"
-								id="submit-btn"
-								type="submit"
-							>
-								Contact Me!
-							</button>
-						</form>
-						<div className="flex gap-5">
-							<a
-								href="https://www.linkedin.com/in/varoonenjeti/"
-								target="_blank"
-								className=""
-							>
-								<Image
-									src="/linkedin.png"
-									alt="Linkedin Logo"
-									width={500}
-									height={500}
-									className="h-[38px] w-[38px] exp"
+					{sent === 0 ? (
+						<div className="absolute w-full h-[calc(100%-50px)] top-[50px] flex flex-col gap-5 justify-center items-center text-darkgrey">
+							<form className="flex flex-col gap-5" onSubmit={handleSubmit}>
+								<input
+									className="w-[480px] h-[50px] rounded-[15px] border-[4px] border-darkgrey text-[1.25rem] font-light text-darkgrey px-[10px] bg-white"
+									type="text"
+									id="name"
+									placeholder="Name"
+									value={formData.name}
+									onChange={handleChange}
+									required
 								/>
-							</a>
-							<a
-								href="mailto:varoon.enjeti@gmail.com?subject=Let's Connect!"
-								target="_blank"
-								className=""
-							>
-								<Image
-									src="/mail.png"
-									alt="Mail Logo"
-									width={500}
-									height={500}
-									className="h-[38px] w-[48px] exp"
+								<input
+									className="w-[480px] h-[50px] rounded-[15px] border-[4px] border-darkgrey text-[1.25rem] font-light text-darkgrey px-[10px] bg-white"
+									type="email"
+									id="email"
+									placeholder="Email"
+									value={formData.email}
+									onChange={handleChange}
+									required
 								/>
-							</a>
-							<a
-								href="https://github.com/varoon-enjeti"
-								target="_blank"
-								className=""
-							>
-								<Image
-									src="/ghlogo.png"
-									alt="GitHub Logo"
-									width={500}
-									height={500}
-									className="h-[38px] w-[38px] exp"
+								<textarea
+									className="w-[480px] h-[250px] rounded-[15px] border-[4px] border-darkgrey text-[1.25rem] font-light text-darkgrey px-[10px] bg-white"
+									id="message"
+									placeholder="Message"
+									value={formData.message}
+									onChange={handleChange}
+									required
 								/>
-							</a>
+								<button
+									className="w-[480px] h-[50px] rounded-[15px] border-[4px] border-darkgrey text-[1.25rem] font-medium text-white px-[10px] bg-blue exp"
+									id="submit-btn"
+									type="submit"
+								>
+									Contact Me!
+								</button>
+							</form>
+							<div className="flex gap-5">
+								<a
+									href="https://www.linkedin.com/in/varoonenjeti/"
+									target="_blank"
+									className=""
+								>
+									<Image
+										src="/linkedin.png"
+										alt="Linkedin Logo"
+										width={500}
+										height={500}
+										className="h-[38px] w-[38px] exp"
+									/>
+								</a>
+								<a
+									href="mailto:varoon.enjeti@gmail.com?subject=Let's Connect!"
+									target="_blank"
+									className=""
+								>
+									<Image
+										src="/mail.png"
+										alt="Mail Logo"
+										width={500}
+										height={500}
+										className="h-[38px] w-[48px] exp"
+									/>
+								</a>
+								<a
+									href="https://github.com/varoon-enjeti"
+									target="_blank"
+									className=""
+								>
+									<Image
+										src="/ghlogo.png"
+										alt="GitHub Logo"
+										width={500}
+										height={500}
+										className="h-[38px] w-[38px] exp"
+									/>
+								</a>
+							</div>
 						</div>
-					</div>
+					) : sent === 1 ? (
+						<div className="absolute w-full h-[calc(100%-50px)] top-[50px] flex flex-col gap-5 justify-center items-center text-darkgrey">
+							<div className="w-1/3 text-center">
+								Thanks for reaching out- I look forward to reading your message!
+							</div>
+						</div>
+					) : (
+						<div className="absolute w-full h-[calc(100%-50px)] top-[50px] flex flex-col gap-5 justify-center items-center text-darkgrey"></div>
+					)}
 				</div>
 			</div>
 		</div>

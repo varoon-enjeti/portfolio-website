@@ -5,11 +5,10 @@
 /* GRID BACKGROUND */
 
 .main-background {
-    background: #B3B3B3;
-    background-image:
-        linear-gradient(#00000010 2px, transparent 2px),
-        linear-gradient(90deg, #00000010 2px, transparent 2px);
-    background-size: 0.53em 0.53em;
+	background: #b3b3b3;
+	background-image: linear-gradient(#00000010 2px, transparent 2px),
+		linear-gradient(90deg, #00000010 2px, transparent 2px);
+	background-size: 0.53em 0.53em;
 }
 
 /* @keyframes gradient {
@@ -41,296 +40,296 @@
 /* REMOVE STANDARD STYLES */
 
 body {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 button {
-    background: none;
-    padding: 0;
-    margin: 0;
+	background: none;
+	padding: 0;
+	margin: 0;
 }
 
 /* FADING ANIMATIONS */
 
 @keyframes fadeIn {
-    from {
-        opacity: 0%;
-    }
+	from {
+		opacity: 0%;
+	}
 
-    to {
-        opacity: 100%;
-    }
+	to {
+		opacity: 100%;
+	}
 }
 
 @keyframes fadeLeftIn {
-    from {
-        margin-left: -20%;
-        opacity: 30%;
-    }
+	from {
+		margin-left: -20%;
+		opacity: 100%;
+	}
 
-    to {
-        margin-left: 0;
-        opacity: 100%;
-    }
+	to {
+		margin-left: 0;
+		opacity: 100%;
+	}
 }
 
 @keyframes fadeLeftInMobile {
-    from {
-        margin-left: -10%;
-        opacity: 30%;
-    }
+	from {
+		margin-left: -10%;
+		opacity: 100%;
+	}
 
-    to {
-        margin-left: 0;
-        opacity: 100%;
-    }
+	to {
+		margin-left: 0;
+		opacity: 100%;
+	}
 }
 
 /* SLIDING ANIMATIONS */
 
 @keyframes slideInFromTop {
-    from {
-        margin-top: -10%;
-        opacity: 30%;
-    }
+	from {
+		margin-top: -10%;
+		opacity: 100%;
+	}
 
-    to {
-        margin-top: 0%;
-        opacity: 100%;
-    }
+	to {
+		margin-top: 0%;
+		opacity: 100%;
+	}
 }
 
 @keyframes slideInFromBot {
-    from {
-        margin-top: 10%;
-        opacity: 30%;
-    }
+	from {
+		margin-top: 10%;
+		opacity: 100%;
+	}
 
-    to {
-        margin-top: 0%;
-        opacity: 100%;
-    }
+	to {
+		margin-top: 0%;
+		opacity: 100%;
+	}
 }
 
 @keyframes slideInFromLeft {
-    from {
-        margin-left: -10%;
-        opacity: 30%;
-    }
+	from {
+		margin-left: -10%;
+		opacity: 100%;
+	}
 
-    to {
-        margin-left: 0%;
-        opacity: 100%;
-    }
+	to {
+		margin-left: 0%;
+		opacity: 100%;
+	}
 }
 
 @keyframes slideInFromRight {
-    from {
-        margin-left: 10%;
-        opacity: 30%;
-    }
+	from {
+		margin-left: 10%;
+		opacity: 100%;
+	}
 
-    to {
-        margin-left: 0%;
-        opacity: 100%;
-    }
+	to {
+		margin-left: 0%;
+		opacity: 100%;
+	}
 }
 
 @keyframes slideInFromTopRight {
-    from {
-        margin-top: -10%;
-        margin-left: 10%;
-        opacity: 30%;
-    }
+	from {
+		margin-top: -10%;
+		margin-left: 10%;
+		opacity: 100%;
+	}
 
-    to {
-        margin-top: 0%;
-        margin-left: 0%;
-        opacity: 100%;
-    }
+	to {
+		margin-top: 0%;
+		margin-left: 0%;
+		opacity: 100%;
+	}
 }
 
 @keyframes slideInFromTopLeft {
-    from {
-        margin-top: -10%;
-        margin-left: -10%;
-        opacity: 30%;
-    }
+	from {
+		margin-top: -10%;
+		margin-left: -10%;
+		opacity: 100%;
+	}
 
-    to {
-        margin-top: 0%;
-        margin-left: 0%;
-        opacity: 100%;
-    }
+	to {
+		margin-top: 0%;
+		margin-left: 0%;
+		opacity: 100%;
+	}
 }
 
 @keyframes slideInFromBotRight {
-    from {
-        margin-top: 10%;
-        margin-left: 10%;
-        opacity: 30%;
-    }
+	from {
+		margin-top: 10%;
+		margin-left: 10%;
+		opacity: 100%;
+	}
 
-    to {
-        margin-top: 0%;
-        margin-left: 0%;
-        opacity: 100%;
-    }
+	to {
+		margin-top: 0%;
+		margin-left: 0%;
+		opacity: 100%;
+	}
 }
 
 @keyframes slideInFromBotLeft {
-    from {
-        margin-top: 10%;
-        margin-left: -10%;
-        opacity: 30%;
-    }
+	from {
+		margin-top: 10%;
+		margin-left: -10%;
+		opacity: 100%;
+	}
 
-    to {
-        margin-top: 0%;
-        margin-left: 0%;
-        opacity: 100%;
-    }
+	to {
+		margin-top: 0%;
+		margin-left: 0%;
+		opacity: 100%;
+	}
 }
 
 /* HOVERS & TRANSITIONS */
 
 .header {
-    animation: 1s ease-out fadeLeftIn;
+	animation: 1s ease-out fadeLeftIn;
 }
 
 .name {
-    transition: transform .25s, visibility .25s ease-in, text-shadow .2s;
+	transition: transform 0.25s, visibility 0.25s ease-in, text-shadow 0.2s;
 }
 
 .name:hover {
-    transform: scale(1.05);
-    text-shadow: 0 0 11px rgba(0, 0, 0, 0.3);
+	transform: scale(1.05);
+	text-shadow: 0 0 11px rgba(0, 0, 0, 0.3);
 }
 
 .pfp {
-    transition: transform .25s, visibility .25s ease-in, box-shadow .25s;
+	transition: transform 0.25s, visibility 0.25s ease-in, box-shadow 0.25s;
 }
 
 .pfp:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+	transform: scale(1.1);
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
 
 .close {
-    border: 3px solid #2C2C2C;
-    transition: transform .25s;
+	border: 3px solid #2c2c2c;
+	transition: transform 0.25s;
 }
 
 .close:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .box {
-    transition: transform .25s;
+	transition: transform 0.25s;
 }
 
 .box:hover {
-    transform: scale(1.03);
+	transform: scale(1.03);
 }
 
 .exp {
-    transition: transform .25s;
+	transition: transform 0.25s;
 }
 
 .exp:hover {
-    transform: scale(1.04);
+	transform: scale(1.04);
 }
 
 .runner {
-    transition: transform .20s, visibility .20s ease-in, text-shadow .2s;
+	transition: transform 0.2s, visibility 0.2s ease-in, text-shadow 0.2s;
 }
 
 .runner:hover {
-    transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 /* LINE TRANSITIONS */
 
 .data {
-    animation: 1s ease-out fadeIn;
+	animation: 1s ease-out fadeIn;
 }
 
 .sil {
-    animation: 1s ease-out slideInFromLeft;
+	animation: 1s ease-out slideInFromLeft;
 }
 
 .sir {
-    animation: 1s ease-out slideInFromRight;
+	animation: 1s ease-out slideInFromRight;
 }
 
 .sit {
-    animation: 1s ease-out slideInFromTop;
+	animation: 1s ease-out slideInFromTop;
 }
 
 .sib {
-    animation: 1s ease-out slideInFromBot;
+	animation: 1s ease-out slideInFromBot;
 }
 
 .sitr {
-    animation: 1s ease-out slideInFromTopRight;
+	animation: 1s ease-out slideInFromTopRight;
 }
 
 .sitl {
-    animation: 1s ease-out slideInFromTopLeft;
+	animation: 1s ease-out slideInFromTopLeft;
 }
 
 .sibr {
-    animation: 1s ease-out slideInFromBotRight;
+	animation: 1s ease-out slideInFromBotRight;
 }
 
 .sibl {
-    animation: 1s ease-out slideInFromBotLeft;
+	animation: 1s ease-out slideInFromBotLeft;
 }
 
 /* REACT TRANSITION GROUP */
 
 .transition-enter {
-    transform: translateY(100%);
+	transform: translateY(100%);
 }
 
 .transition-enter-active {
-    opacity: 1;
-    transform: translateY(0);
-    transition: opacity 300ms, transform 300ms;
+	opacity: 1;
+	transform: translateY(0);
+	transition: opacity 300ms, transform 300ms;
 }
 
 .transition-exit {
-    opacity: 1;
-    transform: translateY(0);
+	opacity: 1;
+	transform: translateY(0);
 }
 
 .transition-exit-active {
-    transform: translateY(100%);
-    transition: opacity 300ms, transform 300ms;
+	transform: translateY(100%);
+	transition: opacity 300ms, transform 300ms;
 }
 
 /* OPEN BUTTONS */
 
 .open-btn {
-    transition: transform .25s, visibility 1s ease-in;
+	transition: transform 0.25s, visibility 1s ease-in;
 }
 
 .open-btn:hover {
-    transform: scale(1.15);
+	transform: scale(1.15);
 }
 
 #selection-contact {
-    rotate: -45deg;
+	rotate: -45deg;
 }
 
 /* SUBPAGE TEXT */
 
 .subptext {
-    -webkit-text-stroke: 2px #2C2C2C;
+	-webkit-text-stroke: 2px #2c2c2c;
 }
 
 .text-wrap {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.3;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	line-height: 1.3;
 }
