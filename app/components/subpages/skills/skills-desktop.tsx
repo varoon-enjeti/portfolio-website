@@ -18,7 +18,6 @@ const SkillsDesktop: React.FC<greenProps> = ({ setSkills }) => {
 				<div className="font-sans text-green font-bold track tracking-[-0.04em] text-[45px] 3xl:text-[56px] subptext mr-3 3xl:mt-1">
 					Skills
 				</div>
-				{/* <div className="absolute w-full h-[calc(100%-50px)] top-[50px] flex justify-center items-center text-darkgrey">Renovations...</div> */}
 			</div>
 			<div className="flex justify-center items-center h-full w-full gap-6">
 				<div className="alg:w-[545px] h-[400px] border-4 bg-white border-darkgrey rounded-[15px] box flex flex-col">
