@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { blueProps, SetStateType } from "../types";
 
-const Contact: React.FC = ({ setContact }) => {
+const Contact: React.FC<blueProps> = ({ setContact }) => {
 	const [formData, setFormData] = useState({
 		name: "",
 		email: "",
