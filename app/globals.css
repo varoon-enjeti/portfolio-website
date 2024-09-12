@@ -64,24 +64,20 @@ button {
 @keyframes fadeLeftIn {
 	from {
 		margin-left: -20%;
-		opacity: 100%;
 	}
 
 	to {
 		margin-left: 0;
-		opacity: 100%;
 	}
 }
 
 @keyframes fadeLeftInMobile {
 	from {
 		margin-left: -10%;
-		opacity: 100%;
 	}
 
 	to {
 		margin-left: 0;
-		opacity: 100%;
 	}
 }
 
@@ -90,48 +86,40 @@ button {
 @keyframes slideInFromTop {
 	from {
 		margin-top: -10%;
-		opacity: 100%;
 	}
 
 	to {
 		margin-top: 0%;
-		opacity: 100%;
 	}
 }
 
 @keyframes slideInFromBot {
 	from {
 		margin-top: 10%;
-		opacity: 100%;
 	}
 
 	to {
 		margin-top: 0%;
-		opacity: 100%;
 	}
 }
 
 @keyframes slideInFromLeft {
 	from {
 		margin-left: -10%;
-		opacity: 100%;
 	}
 
 	to {
 		margin-left: 0%;
-		opacity: 100%;
 	}
 }
 
 @keyframes slideInFromRight {
 	from {
 		margin-left: 10%;
-		opacity: 100%;
 	}
 
 	to {
 		margin-left: 0%;
-		opacity: 100%;
 	}
 }
 
@@ -139,13 +127,11 @@ button {
 	from {
 		margin-top: -10%;
 		margin-left: 10%;
-		opacity: 100%;
 	}
 
 	to {
 		margin-top: 0%;
 		margin-left: 0%;
-		opacity: 100%;
 	}
 }
 
@@ -153,13 +139,11 @@ button {
 	from {
 		margin-top: -10%;
 		margin-left: -10%;
-		opacity: 100%;
 	}
 
 	to {
 		margin-top: 0%;
 		margin-left: 0%;
-		opacity: 100%;
 	}
 }
 
@@ -167,13 +151,11 @@ button {
 	from {
 		margin-top: 10%;
 		margin-left: 10%;
-		opacity: 100%;
 	}
 
 	to {
 		margin-top: 0%;
 		margin-left: 0%;
-		opacity: 100%;
 	}
 }
 
@@ -181,13 +163,11 @@ button {
 	from {
 		margin-top: 10%;
 		margin-left: -10%;
-		opacity: 100%;
 	}
 
 	to {
 		margin-top: 0%;
 		margin-left: 0%;
-		opacity: 100%;
 	}
 }
 
