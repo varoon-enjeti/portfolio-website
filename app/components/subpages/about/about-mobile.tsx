@@ -12,16 +12,69 @@ const AboutMobile: React.FC<yellowProps> = ({ setAbout }) => {
 					onClick={() => {
 						setAbout(false);
 					}}
-					className="w-[40px] 3xl:w-[50px] h-[40px] 3xl:h-[50px] bg-yellow rounded-[13px] close"
+					className="w-[40px] h-[40px] bg-yellow rounded-[13px] close"
 				>
-					<div className="relative top-[-1px] 3xl:top-[0px] left-[15px] 3xl:left-[20px] w-1 3xl:w-[5px] h-[35px] 3xl:h-[43.75px] bg-darkgrey rotate-45 rounded-full"></div>
-					<div className="relative top-[-36px] 3xl:top-[-43px] left-[15px] 3xl:left-[20px] w-1 3xl:w-[5px] h-[35px] 3xl:h-[43.75px] bg-darkgrey rotate-[-45deg] rounded-full"></div>
+					<div className="relative top-[-1px] left-[15px] w-1 h-[35px] bg-darkgrey rotate-45 rounded-full"></div>
+					<div className="relative top-[-36px] left-[15px] w-1 h-[35px] bg-darkgrey rotate-[-45deg] rounded-full"></div>
 				</button>
-				<div className="font-sans text-yellow font-bold tracking-[-0.04em] text-[45px] 3xl:text-[56px] subptext mr-4 3xl:mt-1">
+				<div className="font-sans text-yellow font-bold tracking-[-0.04em] text-[45px] subptext mr-4">
 					About
 				</div>
-				<div className="absolute w-full h-[calc(100%-50px)] top-[50px] flex justify-center items-center text-darkgrey">
-					About - Mobile View
+				<div className="-ml-[6px] absolute w-full h-[calc(100%-50px)] top-[50px] flex gap-3 flex-col justify-center items-center text-darkgrey">
+					<div className="flex gap-3 justify-center align-middle">
+						<div className="w-[185px] h-[373px] border-4 bg-white border-darkgrey rounded-[15px] box flex flex-col">
+							<div className="w-full h-[78px] flex mx-1 mt-1">
+								<Image
+									src="/headshot.jpg"
+									alt="Profile Picture"
+									width={500}
+									height={500}
+									className="h-[75px] w-[75px] rounded-[15px] border-darkgrey border-[3px] exp"
+								/>
+								<div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[12px] ml-1 mr-1 text-wrap">{`Hi, I'm Varoon. Thanks for stopping by- I'm a senior studying CS at Northwestern`}</div>
+							</div>
+							<div className="w-full h-[200px] flex">
+								<div className="flex flex-col">
+									<div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[12px] mx-1 text-wrap">
+										{`University with interests in embedded systems, IoT, and autonomous systems. My coursework focuses on the intersection of software and hardware, and I'm hoping to create code that interacts with our physical world. I am also absolutely fascinated with transit maps, so I used them as inspiration to design this website! Outside of CS, I am an avid `}
+										<a
+											href="https://www.strava.com/athletes/117919395"
+											target="_blank"
+											className="inline-block font-sans font-normal text-orange-500 tracking-[-0.04em] text-[12px] text-wrap underline runner"
+										>
+											runner
+										</a>
+										<a className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[12px]">{` sailor, and airplane enthusiast.`}</a>
+									</div>
+								</div>
+							</div>
+							<div className="w-full h-[80px] flex mt-[3px]">
+								<div className="ml-1 text-wrap font-sans font-normal text-darkgrey tracking-[-0.04em] text-[12px]">{`Also, I'm originally from Kansas, but I'm now plagued with constantly moving.`}</div>
+								<Image
+									src="/sail.jpg"
+									alt="Profile Picture"
+									width={500}
+									height={500}
+									className="h-[75px] w-[75px] rounded-[15px] border-darkgrey border-[3px] mr-1 mb-1 exp"
+								/>
+							</div>
+						</div>
+						<div className="w-[150px] h-[373px] border-4 bg-white border-darkgrey rounded-[15px] box"></div>
+					</div>
+					<div className="w-[347px] h-[130px] border-4 bg-white border-darkgrey rounded-[15px] box">
+						<div className="font-sans text-darkgrey tracking-[-0.04em] font-bold text-[25px] ml-3 mt-[6px] h-[27px]">
+							Education
+						</div>
+						<div className="font-sans text-purple-900 tracking-[-0.04em] font-normal text-[18px] ml-[13px] h-[25px]">
+							Northwestern University
+						</div>
+						<div className="font-sans text-darkgrey tracking-[-0.04em] font-normal text-[18px] ml-[13px] h-[25px]">
+							Bachelor of Arts - Computer Science
+						</div>
+						<div className="font-sans text-darkgrey tracking-[-0.04em] font-normal text-[18px] ml-[13px] h-[25px]">
+							Class of 2025
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

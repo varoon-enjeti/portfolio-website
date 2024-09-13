@@ -147,6 +147,7 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 									width={500}
 									height={500}
 									className="h-[100px] w-[100px]"
+									priority
 								/>
 								<div className="font-sans text-blue font-bold track tracking-[-0.04em]">
 									Thank you!
@@ -165,6 +166,7 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 									width={500}
 									height={500}
 									className="h-[175px] w-[175px]"
+									priority
 								/>
 								<div className="font-sans text-red font-bold track tracking-[-0.04em] -mt-4">
 									Error Sending Message!
