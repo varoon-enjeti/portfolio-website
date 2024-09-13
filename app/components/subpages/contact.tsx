@@ -7,6 +7,8 @@ import { blueProps, SetStateType } from "../types";
 const Contact: React.FC<blueProps> = ({ setContact }) => {
 	const [sent, setSent] = useState(0);
 
+	const [buttonText, setButtonText] = useState("Contact Me!");
+
 	const [formData, setFormData] = useState({
 		name: "",
 		email: "",
@@ -25,27 +27,20 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 	const handleSubmit = (e: React.FormEvent) => {
 		e.preventDefault();
 
-		console.log(formData);
-
 		const serviceID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID ?? "";
 		const templateID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID ?? "";
 		const userID = process.env.NEXT_PUBLIC_EMAILJS_USER_ID ?? "";
 
+		setButtonText("Sending your message...");
+
 		emailjs.send(serviceID, templateID, formData, userID).then(
 			(result) => {
 				setSent(1);
-				setFormData;
 			},
 			(error) => {
 				setSent(2);
 			}
 		);
-
-		setFormData({
-			name: "",
-			email: "",
-			message: "",
-		});
 	};
 
 	return (
@@ -98,7 +93,7 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 									id="submit-btn"
 									type="submit"
 								>
-									Contact Me!
+									{buttonText}
 								</button>
 							</form>
 							<div className="flex gap-5">
@@ -145,12 +140,48 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 						</div>
 					) : sent === 1 ? (
 						<div className="absolute w-full h-[calc(100%-50px)] top-[50px] flex flex-col gap-5 justify-center items-center text-darkgrey">
-							<div className="w-1/3 text-center">
-								Thanks for reaching out- I look forward to reading your message!
+							<div className="w-1/3 flex flex-col gap-8 justify-center items-center text-center sent">
+								<Image
+									src="/sent.png"
+									alt="Check Icon"
+									width={500}
+									height={500}
+									className="h-[100px] w-[100px]"
+								/>
+								<div className="font-sans text-blue font-bold track tracking-[-0.04em]">
+									Thank you!
+								</div>
+								<div className="font-sans track tracking-[-0.04em] text-2xl -mt-7">
+									I look forward to reading your message.
+								</div>
 							</div>
 						</div>
 					) : (
-						<div className="absolute w-full h-[calc(100%-50px)] top-[50px] flex flex-col gap-5 justify-center items-center text-darkgrey"></div>
+						<div className="absolute w-full h-[calc(100%-50px)] top-[50px] flex flex-col gap-5 justify-center items-center text-darkgrey">
+							<div className="w-1/3 flex flex-col gap-8 justify-center items-center text-center sent">
+								<Image
+									src="/error.png"
+									alt="Error Icon"
+									width={500}
+									height={500}
+									className="h-[175px] w-[175px]"
+								/>
+								<div className="font-sans text-red font-bold track tracking-[-0.04em] -mt-4">
+									Error Sending Message!
+								</div>
+								<div className="font-sans track tracking-[-0.04em] text-2xl -mt-7">
+									It seems like there is an issue on my end. In the meantime,
+									please feel free to email me.
+								</div>
+								<a
+									href="mailto:varoon.enjeti@gmail.com?subject=Let's Connect!"
+									target="_blank"
+									className="font-sans track tracking-[-0.04em] text-2xl text-blue underline exp"
+								>
+									varoon.enjeti@gmail.com
+								</a>
+							</div>
+						</div>
 					)}
 				</div>
 			</div>
