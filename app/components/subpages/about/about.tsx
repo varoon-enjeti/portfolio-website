@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import { yellowProps, SetStateType } from "../../types";
-import Expcard from "../../tools/expcard";
+import Expcard from "./expcard";
 import AboutDesktop from "./about-desktop";
 import AboutMobile from "./about-mobile";
 

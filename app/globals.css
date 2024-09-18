@@ -319,3 +319,7 @@ button {
 .sent {
 	animation: 1.5s ease-out fadeIn;
 }
+
+.text-wrap {
+	line-height: 1.25;
+}
