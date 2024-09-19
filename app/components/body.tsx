@@ -7,7 +7,7 @@ import Greenline from "./lines/greenline";
 import Blueline from "./lines/blueline";
 import Projects from "./subpages/projects";
 import About from "./subpages/about/about";
-import Skills from "./subpages/skills/skills";
+import Skills from "./subpages/skills";
 import Contact from "./subpages/contact";
 import { CSSTransition } from "react-transition-group";
 

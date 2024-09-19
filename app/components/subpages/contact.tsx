@@ -66,7 +66,7 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 								onSubmit={handleSubmit}
 							>
 								<input
-									className="w-3/4 alg:w-[480px] max-w-[480px] h-[45px] alg:h-[50px] rounded-[15px] border-[4px] border-darkgrey text-[15px] alg:text-[1.25rem] font-light text-darkgrey px-[10px] bg-white"
+									className="w-3/4 alg:w-[480px] max-w-[480px] h-[45px] alg:h-[50px] rounded-[15px] border-[3px] alg:border-[4px] border-darkgrey text-[15px] alg:text-[1.25rem] font-light text-darkgrey px-[10px] bg-white"
 									type="text"
 									id="name"
 									placeholder="Name"
@@ -75,7 +75,7 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 									required
 								/>
 								<input
-									className="w-3/4 alg:w-[480px] max-w-[480px] h-[45px] alg:h-[50px] rounded-[15px] border-[4px] border-darkgrey text-[15px] alg:text-[1.25rem] font-light text-darkgrey px-[10px] bg-white"
+									className="w-3/4 alg:w-[480px] max-w-[480px] h-[45px] alg:h-[50px] rounded-[15px] border-[3px] alg:border-[4px] border-darkgrey text-[15px] alg:text-[1.25rem] font-light text-darkgrey px-[10px] bg-white"
 									type="email"
 									id="email"
 									placeholder="Email"
@@ -84,7 +84,7 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 									required
 								/>
 								<textarea
-									className="w-3/4 alg:w-[480px] max-w-[480px] h-[250px] rounded-[15px] border-[4px] border-darkgrey text-[15px] alg:text-[1.25rem] font-light text-darkgrey px-[10px] resize-none bg-white"
+									className="w-3/4 alg:w-[480px] max-w-[480px] h-[250px] rounded-[15px] border-[3px] alg:border-[4px] border-darkgrey text-[15px] alg:text-[1.25rem] font-light text-darkgrey px-[10px] resize-none bg-white"
 									id="message"
 									placeholder="Message"
 									value={formData.message}
@@ -92,7 +92,7 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 									required
 								/>
 								<button
-									className="w-3/4 alg:w-[480px] max-w-[480px] h-[45px] alg:h-[50px] rounded-[15px] border-[4px] border-darkgrey text-[15px] alg:text-[1.25rem] font-medium text-white px-[10px] bg-blue exp"
+									className="w-3/4 alg:w-[480px] max-w-[480px] h-[45px] alg:h-[50px] rounded-[15px] border-[3px] alg:border-[4px] border-darkgrey text-[15px] alg:text-[1.25rem] font-medium text-white px-[10px] bg-blue exp"
 									id="submit-btn"
 									type="submit"
 								>
