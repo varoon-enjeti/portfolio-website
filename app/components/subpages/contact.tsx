@@ -61,9 +61,12 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 					</div>
 					{sent === 0 ? (
 						<div className="absolute w-full h-[calc(100%-50px)] top-[50px] flex flex-col gap-5 justify-center items-center text-darkgrey">
-							<form className="flex flex-col gap-5" onSubmit={handleSubmit}>
+							<form
+								className="w-full flex flex-col gap-5 justify-center items-center"
+								onSubmit={handleSubmit}
+							>
 								<input
-									className="w-[480px] h-[50px] rounded-[15px] border-[4px] border-darkgrey text-[1.25rem] font-light text-darkgrey px-[10px] bg-white"
+									className="w-3/4 alg:w-[480px] max-w-[480px] h-[45px] alg:h-[50px] rounded-[15px] border-[4px] border-darkgrey text-[15px] alg:text-[1.25rem] font-light text-darkgrey px-[10px] bg-white"
 									type="text"
 									id="name"
 									placeholder="Name"
@@ -72,7 +75,7 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 									required
 								/>
 								<input
-									className="w-[480px] h-[50px] rounded-[15px] border-[4px] border-darkgrey text-[1.25rem] font-light text-darkgrey px-[10px] bg-white"
+									className="w-3/4 alg:w-[480px] max-w-[480px] h-[45px] alg:h-[50px] rounded-[15px] border-[4px] border-darkgrey text-[15px] alg:text-[1.25rem] font-light text-darkgrey px-[10px] bg-white"
 									type="email"
 									id="email"
 									placeholder="Email"
@@ -81,7 +84,7 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 									required
 								/>
 								<textarea
-									className="w-[480px] h-[250px] rounded-[15px] border-[4px] border-darkgrey text-[1.25rem] font-light text-darkgrey px-[10px] bg-white"
+									className="w-3/4 alg:w-[480px] max-w-[480px] h-[250px] rounded-[15px] border-[4px] border-darkgrey text-[15px] alg:text-[1.25rem] font-light text-darkgrey px-[10px] resize-none bg-white"
 									id="message"
 									placeholder="Message"
 									value={formData.message}
@@ -89,7 +92,7 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 									required
 								/>
 								<button
-									className="w-[480px] h-[50px] rounded-[15px] border-[4px] border-darkgrey text-[1.25rem] font-medium text-white px-[10px] bg-blue exp"
+									className="w-3/4 alg:w-[480px] max-w-[480px] h-[45px] alg:h-[50px] rounded-[15px] border-[4px] border-darkgrey text-[15px] alg:text-[1.25rem] font-medium text-white px-[10px] bg-blue exp"
 									id="submit-btn"
 									type="submit"
 								>
@@ -107,7 +110,7 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 										alt="Linkedin Logo"
 										width={500}
 										height={500}
-										className="h-[38px] w-[38px] exp"
+										className="h-[30px] alg:h-[38px] w-[30px] alg:w-[38px] exp"
 									/>
 								</a>
 								<a
@@ -120,7 +123,7 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 										alt="Mail Logo"
 										width={500}
 										height={500}
-										className="h-[38px] w-[48px] exp"
+										className="h-[30px] alg:h-[38px] w-[40px] alg:w-[48px] exp"
 									/>
 								</a>
 								<a
@@ -133,52 +136,52 @@ const Contact: React.FC<blueProps> = ({ setContact }) => {
 										alt="GitHub Logo"
 										width={500}
 										height={500}
-										className="h-[38px] w-[38px] exp"
+										className="h-[30px] alg:h-[38px] w-[30px] alg:w-[38px] exp"
 									/>
 								</a>
 							</div>
 						</div>
 					) : sent === 1 ? (
 						<div className="absolute w-full h-[calc(100%-50px)] top-[50px] flex flex-col gap-5 justify-center items-center text-darkgrey">
-							<div className="w-1/3 flex flex-col gap-8 justify-center items-center text-center sent">
+							<div className="w-1/2 flex flex-col gap-8 justify-center items-center text-center sent">
 								<Image
 									src="/sent.png"
 									alt="Check Icon"
 									width={500}
 									height={500}
-									className="h-[100px] w-[100px]"
+									className="h-[75px] alg:h-[100px] w-[75px] alg:w-[100px]"
 									priority
 								/>
-								<div className="font-sans text-blue font-bold track tracking-[-0.04em]">
+								<div className="text-2xl alg:text-3xl font-sans text-blue font-bold track tracking-[-0.04em]">
 									Thank you!
 								</div>
-								<div className="font-sans track tracking-[-0.04em] text-2xl -mt-7">
+								<div className="text-xl alg:text-2xl font-sans track tracking-[-0.04em] -mt-7">
 									I look forward to reading your message.
 								</div>
 							</div>
 						</div>
 					) : (
 						<div className="absolute w-full h-[calc(100%-50px)] top-[50px] flex flex-col gap-5 justify-center items-center text-darkgrey">
-							<div className="w-1/3 flex flex-col gap-8 justify-center items-center text-center sent">
+							<div className="w-2/3 lg:w-1/2 flex flex-col gap-8 justify-center items-center text-center sent">
 								<Image
 									src="/error.png"
 									alt="Error Icon"
 									width={500}
 									height={500}
-									className="h-[175px] w-[175px]"
+									className="h-[140px] alg:h-[175px] w-[140px] alg:w-[175px]"
 									priority
 								/>
-								<div className="font-sans text-red font-bold track tracking-[-0.04em] -mt-4">
+								<div className="text-2xl alg:text-3xl font-sans text-red font-bold track tracking-[-0.04em] -mt-4">
 									Error Sending Message!
 								</div>
-								<div className="font-sans track tracking-[-0.04em] text-2xl -mt-7">
+								<div className="text-xl alg:text-2xl font-sans track tracking-[-0.04em] -mt-7">
 									It seems like there is an issue on my end. In the meantime,
 									please feel free to email me.
 								</div>
 								<a
 									href="mailto:varoon.enjeti@gmail.com?subject=Let's Connect!"
 									target="_blank"
-									className="font-sans track tracking-[-0.04em] text-2xl text-blue underline exp"
+									className="text-xl alg:text-2xl font-sans track tracking-[-0.04em] text-blue underline exp"
 								>
 									varoon.enjeti@gmail.com
 								</a>

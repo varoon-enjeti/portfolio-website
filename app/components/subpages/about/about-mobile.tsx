@@ -62,7 +62,7 @@ const AboutMobile: React.FC<yellowProps> = ({ setAbout }) => {
 								Experience
 							</div>
 							<div className="w-4 h-[300px] rounded-[30px] bg-yellow ml-[10px] flex flex-col gap-16 justify-center items-center">
-								<div className="exp relative w-[10px] h-[10px] md:h-5 bg-darkgrey border-[1px] border-lightgrey rounded-full">
+								<div className="exp relative w-[10px] h-[10px] bg-darkgrey border-[1px] border-lightgrey rounded-full">
 									<Expcard
 										role="Software Engineer Intern"
 										company="Applied Materials"
@@ -70,7 +70,7 @@ const AboutMobile: React.FC<yellowProps> = ({ setAbout }) => {
 										twcss="ml-4 -my-[17px]"
 									/>
 								</div>
-								<div className="exp relative w-[10px] h-[10px] md:h-5 bg-darkgrey border-[1px] border-lightgrey rounded-full">
+								<div className="exp relative w-[10px] h-[10px] bg-darkgrey border-[1px] border-lightgrey rounded-full">
 									<Expcard
 										role="Teaching Assistant"
 										company="CS348:Artificial Intelligence"
@@ -78,7 +78,7 @@ const AboutMobile: React.FC<yellowProps> = ({ setAbout }) => {
 										twcss="ml-4 -my-[17px]"
 									/>
 								</div>
-								<div className="exp relative w-[10px] h-[10px] md:h-5 bg-darkgrey border-[1px] border-lightgrey rounded-full">
+								<div className="exp relative w-[10px] h-[10px] bg-darkgrey border-[1px] border-lightgrey rounded-full">
 									<Expcard
 										role="Data Analyst Intern"
 										company="Kemper"
@@ -86,7 +86,7 @@ const AboutMobile: React.FC<yellowProps> = ({ setAbout }) => {
 										twcss="ml-4 -my-[17px]"
 									/>
 								</div>
-								<div className="exp relative w-[10px] h-[10px] md:h-5 bg-darkgrey border-[1px] border-lightgrey rounded-full items-center justify-center">
+								<div className="exp relative w-[10px] h-[10px] bg-darkgrey border-[1px] border-lightgrey rounded-full items-center justify-center">
 									<Expcard
 										role="Software Engineer Intern"
 										company="Ruta Health"
