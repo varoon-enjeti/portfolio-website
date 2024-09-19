@@ -1,9 +1,14 @@
-# Portfolio Website
+# [varoon.xyz](https://www.varoon.xyz)
 
-[varoon.xyz](https://www.varoon.xyz)
 
 **Language:** TypeScript
-<br>
-**Frameworks:** Next.js, React.js, Express, TailwindCSS
-<br>
+<br />
+**Framework:** Next.js
+<br />
+**Frontend:** React.js, TailwindCSS
+<br />
+**Backend:** Node.js, EmailJS
+<br />
+**Hosting:** Vercel
+<br />
 **Original Design:** [Figma](https://www.figma.com/file/5GDy1wtVMN4UwvJxl3VhTF/Personal-Site?type=design&node-id=0%3A1&mode=design&t=emgJwmfWlrEEQCEO-1)
