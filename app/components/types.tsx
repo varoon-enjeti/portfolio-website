@@ -1,37 +1,46 @@
-import React from 'react';
+import React from "react";
 
 export type SetStateType = React.Dispatch<React.SetStateAction<boolean>>;
 
 export interface redProps {
-    setProject: SetStateType;
+	setProject: SetStateType;
 }
 
 export interface yellowProps {
-    setAbout: SetStateType;
+	setAbout: SetStateType;
 }
 
 export interface greenProps {
-    setSkills: SetStateType;
+	setSkills: SetStateType;
 }
 
 export interface blueProps {
-    setContact: SetStateType;
+	setContact: SetStateType;
 }
 
 export interface headerProps {
-    projectLive: boolean;
-    setProject: SetStateType;
-    aboutLive: boolean;
-    setAbout: SetStateType;
-    skillsLive: boolean;
-    setSkills: SetStateType;
-    contactLive: boolean;
-    setContact: SetStateType;
+	projectLive: boolean;
+	setProject: SetStateType;
+	aboutLive: boolean;
+	setAbout: SetStateType;
+	skillsLive: boolean;
+	setSkills: SetStateType;
+	contactLive: boolean;
+	setContact: SetStateType;
 }
 
 export interface expcardProps {
-    role: string;
-    company: string;
-    date: string;
-    twcss: string;
+	role: string;
+	company: string;
+	date: string;
+	twcss: string;
+}
+
+export interface projcardProps {
+	title: string;
+	description: string;
+	ghlink: string;
+	image: string;
+	styling: string;
+	image_styling: string;
 }

@@ -320,6 +320,8 @@ button {
 	animation: 1.5s ease-out fadeIn;
 }
 
+/* ABOUT PAGE - BROWSER LINE HEIGHT SPECIFICATION */
+
 .text-wrap {
 	line-height: 1.25;
 }

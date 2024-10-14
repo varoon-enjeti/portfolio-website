@@ -5,7 +5,7 @@ import Redline from "./lines/redline";
 import Yellowline from "./lines/yellowline";
 import Greenline from "./lines/greenline";
 import Blueline from "./lines/blueline";
-import Projects from "./subpages/projects";
+import Projects from "./subpages/projects/projects";
 import About from "./subpages/about/about";
 import Skills from "./subpages/skills";
 import Contact from "./subpages/contact";
@@ -66,7 +66,7 @@ export default function Body() {
 
 		return `${strHours}:${strMinutes}:${strSeconds} ${ampm}`;
 	};
-
+	// h-[calc(100%-40px)]
 	return (
 		<div className="w-[calc(100%-40px)] h-[calc(100%-40px)] md:w-[calc(100%-50px)] md:h-[calc(100%-50px)]">
 			<div className="2xl:w-full 2xl:h-[60%] 2xl:absolute 2xl:top-1/3 2xl:left-1/2 2xl:transform 2xl:-translate-x-1/2 2xl:-translate-y-1/3">
