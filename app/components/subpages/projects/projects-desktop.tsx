@@ -14,6 +14,13 @@ const ProjeectDesktop: React.FC<redProps> = ({ setProject }) => {
 					<div className="relative top-[-1px] 3xl:top-[0px] left-[15px] 3xl:left-[20px] w-1 3xl:w-[5px] h-[35px] 3xl:h-[43.75px] bg-darkgrey rotate-45 rounded-full"></div>
 					<div className="relative top-[-36px] 3xl:top-[-43px] left-[15px] 3xl:left-[20px] w-1 3xl:w-[5px] h-[35px] 3xl:h-[43.75px] bg-darkgrey rotate-[-45deg] rounded-full"></div>
 				</button>
+				<a
+					href="https://github.com/varoon-enjeti"
+					target="_blank"
+					className="w-[160px] h-[40px] bg-red font-sans text-[17px] text-darkgrey font-bold flex justify-center items-center rounded-xl border-darkgrey border-[2.5px] ml-[145px] exp"
+				>
+					See All Projects
+				</a>
 				<div className="font-sans text-red font-bold track tracking-[-0.04em] text-[45px] 3xl:text-[56px] subptext mr-1 3xl:mt-1">
 					Projects
 				</div>
