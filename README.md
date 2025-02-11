@@ -1,4 +1,4 @@
-# [varoon.xyz](https://www.varoon.xyz)
+# [varoon.net](https://www.varoon.net)
 
 
 **Language:** TypeScript
