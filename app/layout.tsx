@@ -19,7 +19,11 @@ export default function RootLayout({
 					name="viewport"
 					content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
 				/>
-				<link rel="apple-touch-icon" type="image/png" href="/ati.png" />
+				<link
+					rel="apple-touch-icon"
+					type="image/png"
+					href="/ati.png?m=<?php echo filemtime('apple-touch-icon.png'); ?>"
+				/>
 			</Head>
 			<body className="overflow-hidden m-0 p-0">{children}</body>
 		</html>
