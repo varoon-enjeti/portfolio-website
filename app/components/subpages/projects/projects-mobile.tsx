@@ -16,7 +16,7 @@ const ProjectsMobile: React.FC<redProps> = ({ setProject }) => {
 				<div className="font-sans text-red font-bold track tracking-[-0.04em] text-[45px] 3xl:text-[56px] subptext mr-1 3xl:mt-1">
 					Projects
 				</div>
-				<div className="absolute w-full h-[calc(100%-50px)] top-[50px] flex justify-center items-center text-darkgrey">
+				<div className="absolute w-full h-[calc(100%-50px)] top-[50px] flex justify-center items-center text-darkgrey text-xl">
 					Projects - Mobile (Coming Soon...)
 				</div>
 			</div>

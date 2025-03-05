@@ -23,22 +23,22 @@ const AboutDesktop: React.FC<yellowProps> = ({ setAbout }) => {
 			</div>
 			<div className="h-full w-full flex justify-center items-center gap-6 3xl:gap-10">
 				<div className="flex flex-col h-full gap-6 3xl:gap-10 items-center justify-center">
-					<div className="w-[512px] 3xl:w-[640px] h-[309px] 3xl:h-[379px] border-4 bg-white border-darkgrey rounded-[15px] box flex flex-col">
+					<div className="w-[512px] 3xl:w-[640px] h-[299px] 3xl:h-[379px] border-4 bg-white border-darkgrey rounded-[15px] box flex flex-col">
 						<div className="w-full h-[100px] 3xl:h-[125px] flex mx-2 mt-2">
 							<Image
 								src="/headshot.jpg"
 								alt="Profile Picture"
 								width={500}
 								height={500}
-								className="h-[100px] w-[100px] 3xl:h-[125px] 3xl:w-[125px] rounded-[15px] border-darkgrey border-[3px] exp"
+								className="h-[99px] w-[99px] 3xl:h-[125px] 3xl:w-[125px] rounded-[15px] border-darkgrey border-[3px] exp"
 							/>
-							<div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 3xl:mr-2 text-wrap">{`Hi, I'm Varoon. Thanks for stopping by- I'm a senior studying CS at Northwestern University with interests in embedded systems, IoT, and autonomous systems. My coursework focuses`}</div>
+							<div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 3xl:mr-2 text-wrap">{`Hi, I'm Varoon. Thanks for stopping by – I'm a senior studying CS at Northwestern University with interests in embedded systems, IoT, and autonomous systems. My coursework focuses`}</div>
 						</div>
-						<div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 mt-1 text-wrap">{`on the intersection of software and hardware, and I'm hoping to create code that interacts with the physical world. I am also absolutely fascinated with transit maps, so I used them`}</div>
+						<div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] ml-2 text-wrap">{`on the intersection of software and hardware, and I'm hoping to create code that interacts with the physical world. I am also absolutely fascinated with transit maps, so I used them`}</div>
 						<div className="w-full h-[100px] 3xl:h-[125px] flex">
 							<div className="flex flex-col">
 								<div className="font-sans font-normal text-darkgrey tracking-[-0.04em] text-[20px] 3xl:text-[25px] mx-2 text-wrap">
-									{`as inspiration to design this website! Outside of CS, I am an avid `}
+									{`as inspiration to design this website. Outside of CS, I am an avid `}
 									<a
 										href="https://www.strava.com/athletes/117919395"
 										target="_blank"
@@ -54,7 +54,7 @@ const AboutDesktop: React.FC<yellowProps> = ({ setAbout }) => {
 								alt="Profile Picture"
 								width={500}
 								height={500}
-								className="h-[100px] w-[100px] 3xl:h-[125px] 3xl:w-[125px] rounded-[15px] border-darkgrey border-[3px] mt-1 mr-2 exp"
+								className="h-[99px] w-[99px] 3xl:h-[125px] 3xl:w-[125px] rounded-[15px] border-darkgrey border-[3px] mt-[1px] mr-2 exp"
 							/>
 						</div>
 					</div>
@@ -74,7 +74,7 @@ const AboutDesktop: React.FC<yellowProps> = ({ setAbout }) => {
 					</div>
 				</div>
 				<div className="flex h-full items-center justify-center">
-					<div className="w-[504px] 3xl:w-[630px] h-[513px] 3xl:h-[646px] border-4 bg-white border-darkgrey rounded-[15px] box">
+					<div className="w-[504px] 3xl:w-[630px] h-[502px] 3xl:h-[646px] border-4 bg-white border-darkgrey rounded-[15px] box">
 						<div className="font-sans text-darkgrey tracking-[-0.04em] font-bold text-[45px] 3xl:text-[56px] mt-4 ml-3 h-[45px]">
 							Experience
 						</div>
@@ -84,7 +84,7 @@ const AboutDesktop: React.FC<yellowProps> = ({ setAbout }) => {
 									<Expcard
 										role="Software Engineer Intern"
 										company="Applied Materials"
-										date="June 2024 - Present"
+										date="June 2024 - Sept. 2025"
 										twcss="ml-8 -mt-7 3xl:ml-[40px] 3xl:-mt-[36px]"
 									/>
 								</div>
