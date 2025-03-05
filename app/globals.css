@@ -228,6 +228,8 @@ button {
 
 .runner {
 	transition: transform 0.2s, visibility 0.2s ease-in, text-shadow 0.2s;
+	transform-origin: center;
+	will-change: transform;
 }
 
 .runner:hover {
