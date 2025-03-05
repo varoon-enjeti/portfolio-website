@@ -198,6 +198,8 @@ button {
 .close {
 	border: 3px solid #2c2c2c;
 	transition: transform 0.25s;
+	transform-origin: center;
+	will-change: transform;
 }
 
 .close:hover {
@@ -206,6 +208,8 @@ button {
 
 .box {
 	transition: transform 0.25s;
+	transform-origin: center;
+	will-change: transform;
 }
 
 .box:hover {
@@ -214,6 +218,8 @@ button {
 
 .exp {
 	transition: transform 0.25s;
+	transform-origin: center;
+	will-change: transform;
 }
 
 .exp:hover {
