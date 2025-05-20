@@ -66,7 +66,7 @@ const AboutMobile: React.FC<yellowProps> = ({ setAbout }) => {
 									<Expcard
 										role="Software Engineer Intern"
 										company="Applied Materials"
-										date="June 2024 - Sept. 2025"
+										date="June 2024 - Sept. 2024"
 										twcss="ml-4 -my-[17px]"
 									/>
 								</div>
