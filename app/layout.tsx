@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
 	title: "Varoon Enjeti - Portfolio",
 	description:
-		"Portfolio website of Varoon Enjeti showcasing projects, skills, and contact information.",
+		"I am a senior studying Computer Science at Northwestern University interested in the intersection of software and hardware.",
 	viewport: {
 		width: "device-width",
 		initialScale: 1.0,
